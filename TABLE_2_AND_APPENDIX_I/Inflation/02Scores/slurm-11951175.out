@@ -1,0 +1,1780 @@
+(55, array([55]))
+(56, array([56]))
+(66, array([66]))
+(70, array([70]))
+(76, array([76]))
+(77, array([77]))
+(82, array([82]))
+(86, array([86]))
+(102, array([102]))
+(114, array([114]))
+(120, array([120]))
+(121, array([121]))
+(13, array([ 13, 141]))
+(61, array([61]))
+(72, array([72]))
+(73, array([73]))
+(79, array([79]))
+(81, array([81]))
+(107, array([107]))
+(1, array([  1, 129]))
+(27, array([ 27, 155]))
+(37, array([ 37, 165]))
+(57, array([57]))
+(95, array([95]))
+(113, array([113]))
+(127, array([127]))
+(7, array([  7, 135]))
+(105, array([105]))
+(111, array([111]))
+(17, array([ 17, 145]))
+(31, array([ 31, 159]))
+(58, array([58]))
+(0, array([  0, 128]))
+(12, array([ 12, 140]))
+(22, array([ 22, 150]))
+(80, array([80]))
+(98, array([98]))
+(119, array([119]))
+(8, array([  8, 136]))
+(10, array([ 10, 138]))
+(28, array([ 28, 156]))
+(59, array([59]))
+(97, array([97]))
+(85, array([85]))
+(100, array([100]))
+(104, array([104]))
+(118, array([118]))
+(122, array([122]))
+(4, array([  4, 132]))
+(9, array([  9, 137]))
+(24, array([ 24, 152]))
+(49, array([ 49, 177]))
+(2, array([  2, 130]))
+(75, array([75]))
+(91, array([91]))
+(108, array([108]))
+(5, array([  5, 133]))
+(21, array([ 21, 149]))
+(45, array([ 45, 173]))
+(87, array([87]))
+(94, array([94]))
+(126, array([126]))
+(35, array([ 35, 163]))
+(36, array([ 36, 164]))
+(65, array([65]))
+(74, array([74]))
+(83, array([83]))
+(93, array([93]))
+(101, array([101]))
+(106, array([106]))
+(115, array([115]))
+(117, array([117]))
+(16, array([ 16, 144]))
+(20, array([ 20, 148]))
+(23, array([ 23, 151]))
+(29, array([ 29, 157]))
+(25, array([ 25, 153]))
+(38, array([ 38, 166]))
+(42, array([ 42, 170]))
+(54, array([54]))
+(64, array([64]))
+(112, array([112]))
+(15, array([ 15, 143]))
+(34, array([ 34, 162]))
+(63, array([63]))
+(125, array([125]))
+(46, array([ 46, 174]))
+(78, array([78]))
+(89, array([89]))
+(110, array([110]))
+(19, array([ 19, 147]))
+(103, array([103]))
+(26, array([ 26, 154]))
+(33, array([ 33, 161]))
+(96, array([96]))
+(32, array([ 32, 160]))
+(6, array([  6, 134]))
+(11, array([ 11, 139]))
+(53, array([53]))
+(92, array([92]))
+(39, array([ 39, 167]))
+(44, array([ 44, 172]))
+(47, array([ 47, 175]))
+(90, array([90]))
+(50, array([ 50, 178]))
+(51, array([ 51, 179]))
+(43, array([ 43, 171]))
+(84, array([84]))
+(88, array([88]))
+(14, array([ 14, 142]))
+(62, array([62]))
+(67, array([67]))
+(116, array([116]))
+(18, array([ 18, 146]))
+(52, array([52]))
+(69, array([69]))
+(60, array([60]))
+(99, array([99]))
+(123, array([123]))
+(40, array([ 40, 168]))
+(3, array([  3, 131]))
+(30, array([ 30, 158]))
+(109, array([109]))
+(68, array([68]))
+(48, array([ 48, 176]))
+(71, array([71]))
+(124, array([124]))
+(41, array([ 41, 169]))
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The maximum number of subdivisions (50) has been achieved.
+  If increasing the limit yields no improvement it is advised to analyze 
+  the integrand in order to determine the difficulties.  If the position of a 
+  local difficulty can be determined (singularity, discontinuity) one will 
+  probably gain from splitting up the interval and calling the integrator 
+  on the subranges.  Perhaps a special-purpose integrator should be used.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:108: IntegrationWarning: The algorithm does not converge.  Roundoff error is detected
+  in the extrapolation table.  It is assumed that the requested tolerance
+  cannot be achieved, and that the returned result (if full_output = 1) is 
+  the best which can be obtained.
+  vFwNorm[vIntR[i]]= (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, -np.inf, np.inf,epsabs=1e-15, epsrel=1e-15)[0])**(1/dAlpha)
+
+JOB STATISTICS
+==============
+Job ID: 11951175
+Cluster: snellius
+User/Group: rdpunder/rdpunder
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 04:33:22
+CPU Efficiency: 66.39% of 06:51:44 core-walltime
+Job Wall-clock time: 00:03:13
+Memory Utilized: 14.02 GB
+Memory Efficiency: 6.26% of 224.00 GB (1.75 GB/core)

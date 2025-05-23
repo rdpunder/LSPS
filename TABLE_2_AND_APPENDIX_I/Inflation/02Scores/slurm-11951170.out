@@ -1,0 +1,639 @@
+(30, array([ 30, 158]))
+(41, array([ 41, 169]))
+(44, array([ 44, 172]))
+(51, array([ 51, 179]))
+(68, array([68]))
+(76, array([76]))
+(87, array([87]))
+(91, array([91]))
+(105, array([105]))
+(122, array([122]))
+(28, array([ 28, 156]))
+(32, array([ 32, 160]))
+(37, array([ 37, 165]))
+(40, array([ 40, 168]))
+(42, array([ 42, 170]))
+(45, array([ 45, 173]))
+(50, array([ 50, 178]))
+(52, array([52]))
+(55, array([55]))
+(65, array([65]))
+(77, array([77]))
+(94, array([94]))
+(96, array([96]))
+(102, array([102]))
+(119, array([119]))
+(10, array([ 10, 138]))
+(16, array([ 16, 144]))
+(118, array([118]))
+(127, array([127]))
+(9, array([  9, 137]))
+(26, array([ 26, 154]))
+(47, array([ 47, 175]))
+(62, array([62]))
+(69, array([69]))
+(72, array([72]))
+(74, array([74]))
+(75, array([75]))
+(81, array([81]))
+(82, array([82]))
+(98, array([98]))
+(39, array([ 39, 167]))
+(58, array([58]))
+(106, array([106]))
+(107, array([107]))
+(114, array([114]))
+(6, array([  6, 134]))
+(11, array([ 11, 139]))
+(2, array([  2, 130]))
+(19, array([ 19, 147]))
+(31, array([ 31, 159]))
+(53, array([53]))
+(15, array([ 15, 143]))
+(49, array([ 49, 177]))
+(126, array([126]))
+(83, array([83]))
+(84, array([84]))
+(24, array([ 24, 152]))
+(57, array([57]))
+(0, array([  0, 128]))
+(21, array([ 21, 149]))
+(17, array([ 17, 145]))
+(113, array([113]))
+(20, array([ 20, 148]))
+(93, array([93]))
+(85, array([85]))
+(1, array([  1, 129]))
+(90, array([90]))
+(99, array([99]))
+(29, array([ 29, 157]))
+(78, array([78]))
+(59, array([59]))
+(97, array([97]))
+(111, array([111]))
+(121, array([121]))
+(95, array([95]))
+(108, array([108]))
+(80, array([80]))
+(71, array([71]))
+(79, array([79]))
+(67, array([67]))
+(115, array([115]))
+(33, array([ 33, 161]))
+(5, array([  5, 133]))
+(112, array([112]))
+(63, array([63]))
+(120, array([120]))
+(14, array([ 14, 142]))
+(18, array([ 18, 146]))
+(8, array([  8, 136]))
+(4, array([  4, 132]))
+(27, array([ 27, 155]))
+(35, array([ 35, 163]))
+(13, array([ 13, 141]))
+(70, array([70]))
+(89, array([89]))
+(66, array([66]))
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+(46, array([ 46, 174]))
+(86, array([86]))
+(36, array([ 36, 164]))
+(103, array([103]))
+(101, array([101]))
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+(73, array([73]))
+(88, array([88]))
+(56, array([56]))
+(117, array([117]))
+(34, array([ 34, 162]))
+(64, array([64]))
+(7, array([  7, 135]))
+(23, array([ 23, 151]))
+(125, array([125]))
+(38, array([ 38, 166]))
+(124, array([124]))
+(3, array([  3, 131]))
+(100, array([100]))
+(92, array([92]))
+(54, array([54]))
+(25, array([ 25, 153]))
+(22, array([ 22, 150]))
+(116, array([116]))
+(61, array([61]))
+(12, array([ 12, 140]))
+(104, array([104]))
+(43, array([ 43, 171]))
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+(110, array([110]))
+(123, array([123]))
+(48, array([ 48, 176]))
+(60, array([60]))
+(109, array([109]))
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+/gpfs/home2/rdpunder/FinalTestingLSPS/Inflation/02Scores/ScoringRules.py:104: IntegrationWarning: The occurrence of roundoff error is detected, which prevents 
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  vFwNorm[vIntR[i]] = (integrate.quad(lambda x:  (dictDistr['randDistr'].pdf(x) * dictW['fW'](x, dictW['vParamsW'], vR[vIntR[i]]))**dAlpha, dictW['vParamsW']-vR[vIntR[i]], dictW['vParamsW']+vR[vIntR[i]],epsabs=1e-15, epsrel=1e-15, limit=100)[0])**(1/dAlpha)
+
+JOB STATISTICS
+==============
+Job ID: 11951170
+Cluster: snellius
+User/Group: rdpunder/rdpunder
+State: RUNNING
+Nodes: 1
+Cores per node: 128
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 02:08:00 core-walltime
+Job Wall-clock time: 00:01:00
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 224.00 GB (1.75 GB/core)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.
