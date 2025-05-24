@@ -249,11 +249,11 @@ def main():
                     dictRIdxGridPlots = {'TrueF': {'FavF': np.arange(0,iRtot)[vR >= -6][vR[vR >= -6] <= 3], 'FavG': np.arange(0,iRtot)[vR > -6][vR[vR > -6] < 3]}, 
                                       'TrueG': {'FavF': np.arange(0,iRtot)[vR > -6][vR[vR > -6] < 3], 'FavG': np.arange(0,iRtot)[vR > -6][vR[vR > -6] < 4]}}
                 
-                PlotRejRates({'Values': vR, 'Label': 'threshold $r$'}, dictRejRatesDM, dictScores, np.arange(0,4), dictRIdxGridPlots, sSettings + '_DensLog', iLegCol=4, iStepX=1)
+                PlotRejRates({'Values': vR, 'Label': 'threshold $r$'}, dictRejRatesDM, dictScores, np.arange(0,3), dictRIdxGridPlots, sSettings + '_DensLog', iLegCol=2, iStepX=1)
                 dictScores['LogSFlat'] = {'fScore': LogSFlat,'vParamsS': None, 'bWeighted': True, 'Label': 'LogS$^\\flat$', 'Colour': lCycle[1], 'Symbol': lStyles[1]} 
-                PlotRejRates({'Values': vR, 'Label': 'threshold $r$'}, dictRejRatesDM, dictScores, np.concatenate((np.arange(4,8),[1])), dictRIdxGridPlots, sSettings + '_DensSphS', iLegCol=5, iStepX=1)
-                PlotRejRates({'Values': vR, 'Label': 'threshold $r$'}, dictRejRatesDM, dictScores, np.concatenate((np.arange(8,12),[1])), dictRIdxGridPlots, sSettings + '_DensQS', iLegCol=5, iStepX=1)
-                PlotRejRates({'Values': vR, 'Label': 'threshold $r$'}, dictRejRatesDM, dictScores, np.concatenate((np.arange(12,16),[1])), dictRIdxGridPlots, sSettings + '_DensCRPS', iLegCol=5, iStepX=1)
+                PlotRejRates({'Values': vR, 'Label': 'threshold $r$'}, dictRejRatesDM, dictScores, np.concatenate((np.arange(4,8),[1])), dictRIdxGridPlots, sSettings + '_DensSphS', iLegCol=3, iStepX=1)
+                PlotRejRates({'Values': vR, 'Label': 'threshold $r$'}, dictRejRatesDM, dictScores, np.concatenate((np.arange(8,12),[1])), dictRIdxGridPlots, sSettings + '_DensQS', iLegCol=3, iStepX=1)
+                PlotRejRates({'Values': vR, 'Label': 'threshold $r$'}, dictRejRatesDM, dictScores, np.concatenate((np.arange(12,16),[1])), dictRIdxGridPlots, sSettings + '_DensCRPS', iLegCol=3, iStepX=1)
                 
             else:
                 print('iAxis=1 is not supported')

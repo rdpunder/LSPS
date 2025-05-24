@@ -105,7 +105,7 @@ def funcPlotsPerWPerS(dictDataFrames, dictDataFramesSwitched, lScoringRules, sCa
     for sSide in dictDataFrames.keys():
         
         for sScoringRule in lScoringRules:
-            iCol = 4
+            iCol = 2
             lLabels = [sScoringRule+'$^\\sharp$', sScoringRule+'$^\\flat$', sScoringRule+'slog', sScoringRule + 'sbar' ]
             dfDiv = dictDataFrames[sSide][sScoringRule]
             dfDivSwitch = dictDataFramesSwitched[sSide][sScoringRule]
@@ -114,6 +114,8 @@ def funcPlotsPerWPerS(dictDataFrames, dictDataFramesSwitched, lScoringRules, sCa
             
             for i in range(len(lKeys)):
                 sKey = lKeys[i]
+                if (sScoringRule == 'LogS') * (sKey == 'StandDivSSharpslog'):
+                    continue
                 axs[0].plot(dfDiv['r'], dfDiv[sKey], label=lLabels[i])
                 axs[1].plot(dfDivSwitch['r'], dfDivSwitch[sKey], label=lLabels[i])
             
@@ -130,7 +132,7 @@ def funcPlotsPerWPerS(dictDataFrames, dictDataFramesSwitched, lScoringRules, sCa
 
             handles, labels = axs[0].get_legend_handles_labels()
             fig.tight_layout()
-            fig.subplots_adjust(bottom=0.04, hspace=0.45)  # More space below for the legend
+            fig.subplots_adjust(bottom=0.14, hspace=0.45)  # More space below for the legend
             
             fig.legend(handles, labels, loc='lower center', bbox_to_anchor=(0.5, -0.25), ncol=iCol, frameon=True)
 
@@ -164,8 +166,8 @@ def funcPlotsPerWPerSInclTwCRPS(dictDataFrames, dictDataFramesSwitched, lScoring
     sSide = 'C'
     sScoringRule = 'CRPS'
     dfSelect = dictDataFrames['C']['CRPS'] 
-    dfTwCRPS = pd.read_excel('OutputDataFrames/mMomentsSDiff_RTot3_twCRPS_C0_NormT5_bSwitchFalse.xlsx')['StandDivSFlat'] # 'StandDivSFlat' is to be able to reuse code for this instance
-    dfTwCRPSSwitch = pd.read_excel('OutputDataFrames/mMomentsSDiff_RTot3_twCRPS_C0_NormT5_bSwitchTrue.xlsx')['StandDivSFlat'] # 'StandDivSFlat' is to be able to reuse code for this instance
+    dfTwCRPS = pd.read_excel('OutputDataFrames/mMomentsSDiff_RTot300_twCRPS_C0_NormT5_bSwitchFalse.xlsx')['StandDivSFlat'] # 'StandDivSFlat' is to be able to reuse code for this instance
+    dfTwCRPSSwitch = pd.read_excel('OutputDataFrames/mMomentsSDiff_RTot300_twCRPS_C0_NormT5_bSwitchTrue.xlsx')['StandDivSFlat'] # 'StandDivSFlat' is to be able to reuse code for this instance
     
     dfDiv = dictDataFrames[sSide][sScoringRule]
     dfDivSwitch = dictDataFramesSwitched[sSide][sScoringRule]
