@@ -9,7 +9,7 @@ The goal of this repository is to provide code to reproduce the results from *Lo
 In Example 6 of Section 3.4, we provide a specific example for which the expected score difference based on the weighted scoring rule by Mitchell and Weale (2023) is negative for α>α_0. The aim of directory *EXAMPLE_6* is to reproduce the (rounded) number α_0 = 0.052 and to graphically verify the inequality α>α_0. We refer to the *ReadMe.txt* in this directory for further instructions.
 
 ### TABLE 2 and APPENDIX I: Empirical Studies
-In Table 2 of Section 4, we present summary results on differences in Model Confidence Set (MCS) cardinality for α=0.90 and in Table I1 we display the summary results for α=0.75. For every Sec., for every weight function, Appendix I includes a separate Table reporting the underlying MCS p-values. In directory TABLE_2_AND_APPENDIX_I, we have created the following subdirectories to reproduce all empirical results
+In Table 2 of Section 4, we present summary results on differences in Model Confidence Set (MCS) cardinality for α=0.90 and in Table I1 we display the summary results for α=0.75. For every Sec., for every weight function, Appendix I includes a separate Table reporting the underlying MCS p-values. In directory TABLE_2_AND_APPENDIX_I, we have created the following subdirectories to reproduce all empirical results.
 
 #### RiskManagement
 - Table 2 panel Sec 4.1, I_L 
