@@ -6,7 +6,7 @@ This repository provides the data and code to reproduce all the empirical and Mo
 ## Structure of the repository
 
 ### TABLE 2 and APPENDIX I: Empirical Studies
-In Table 2 of Section 4, we present summary results on differences in Model Confidence Set (MCS) cardinality for α=0.90 and in Table I1 we display the summary results for α=0.75. For every subsection, for every weight function, Appendix I includes a separate Table reporting the underlying MCS p-values. In directory TABLE_2_AND_APPENDIX_I, we have created the following subdirectories to reproduce all empirical results
+In Table 2 of Section 4, we present summary results on differences in Model Confidence Set (MCS) cardinality for α=0.90 and in Table I1 we display the summary results for α=0.75. For every subsection, for every weight function, Appendix I includes a separate Table reporting the underlying MCS p-values. In directory TABLE_2_AND_APPENDIX_I, we have created the following subdirectories to reproduce all empirical results:
 
 #### RiskManagement
 - Table 2 panel Sec 4.1, I_L 
