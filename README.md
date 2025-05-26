@@ -40,11 +40,14 @@ The Monte Carlo Study detailed in Appendix G includes a size experiment and thre
 ### EXAMPLE 6: Mitchell and Weale (2023)
 In Example 6 of Section 3.4, we provide a specific example for which the expected score difference based on the weighted scoring rule by Mitchell and Weale (2023) is negative for α>α_0. The aim of directory *EXAMPLE_6* is to reproduce the (rounded) number α_0 = 0.052 and to graphically verify the inequality α>α_0. We refer to the *ReadMe.txt* in this directory for further instructions.
 
-# Other files
-- LICENSE: MIT License
-- README.md: This *README.md* file.
+## Requirements
+The scripts contained in the directories listed above rely on a set of supporting libraries. To ensure consistency and reproducibility, we used a virtual environment that can be reconstructed from the provided requirements.txt file.
 
-
+## Other files
+- requirements.txt: required libraries and packages
+- ComputationTimePerFile.xlsx: Indicating computation time per file
+- LICENSE: MIT License.
+- README.md: This *README.md* file
 
 
 
