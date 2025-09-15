@@ -9,7 +9,7 @@ This repository provides the data and code to reproduce all the empirical and Mo
 Directory: `RISK_MANAGEMENT_Table_2_Appendix_I/`
 
 ### Data
-Download the Realized Volatility measure via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`) for the period `All`. The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the subdirectory `01DensityForecasts`. The S&P500 series (ticker: `SPY`) is downloaded from [Yahoo Finance](https://finance.yahoo.com/quote/SPY/) through the `yfinance` module by running the Python script `01DensityForecasts/EmpiricalDataRiskMan.py`, which also transforms the prices into log returns and merges the S&P500 data with the deannualized realized measure.  
+Download the Realized Volatility measure via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`) for the period `All`. The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the subdirectory `01DensityForecasts/Data`. The S&P500 series (ticker: `SPY`) is downloaded from [Yahoo Finance](https://finance.yahoo.com/quote/SPY/) through the `yfinance` module by running the Python script `01DensityForecasts/Data/EmpiricalDataRiskMan.py`, which also transforms the prices into log returns and merges the S&P500 data with the deannualized realized measure.  
 
 
 ### Code
@@ -31,7 +31,7 @@ Download the Realized Volatility measures via Dacheng Xiu's [Risk Lab](https://d
 Directory: `INFLATION_Table_2_Appendix_I/`
 
 ### Data
-The inflation data is sourced from the code provided by Medeiros et al. (2021) and stored as `01DensityForecasts/Data/Data.Rdata`. Run the R script `01_data_acc.R` to construct the accumulated inflation for each horizon. The resulting datasets are saved in the `Data` directory as both `mYAcc.Rdata` and `mYAcc.npy` file. In addition, the last 180 months of observations are saved separately in the same formats, under the files `YAcc.Rdata` and `mYAcc.npy`. 
+The inflation data is sourced from the code provided by Medeiros et al. (2021) and stored as `01DensityForecasts/Data/Data.Rdata`. Run the R script `01_data_acc.R` to construct the accumulated inflation for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` directory as both `mYAcc.Rdata` and `mYAcc.npy` file. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAcc.Rdata` and `mYAcc.npy`. 
 
 ### Code
 
