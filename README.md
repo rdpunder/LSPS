@@ -20,8 +20,18 @@ Download the Realized Volatility measure via Dacheng Xiu's [Risk Lab](https://da
 Directory: `MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/`
 
 ### Data
-Download the Realized Volatility measures via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting, for the period `All`, trades of (i) `SELECT SECTOR SPDR TRUST` (symbol=`XLE`, PN=`86454`), and (ii) trades of `SELECT SECTOR SPDR TRUST` (symbol=`XLF`, PN=`86455`) for the period `All` The downloaded files contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as the `.csv` files `RVFullPeriodXLETrade.csv` and `RVFullPeriodXLFTrade.csv` in the folder `01DensityForecasts`. The series Energy Select Sector SPDR Fund (ticker: `XLE`) and Financial Select Sector SPDR (ticker: `XLF`) are downloaded from [Yahoo Finance](https://finance.yahoo.com/quote/XLE/) through the `yfinance` module by running the Python script `01DensityForecasts/EmpiricalDataMultivariateRiskMan.py`, which also transforms the prices into log returns and merges the XLE and XLF data with the corresponding deannualized realized measure.  
+Download the Realized Volatility measures via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting, for the period `All`, trades of (i) `SELECT SECTOR SPDR TRUST` (symbol=`XLE`, PN=`86454`), and (ii) trades of `SELECT SECTOR SPDR TRUST` (symbol=`XLF`, PN=`86455`) for the period `All` The downloaded files contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as the `.csv` files `RVFullPeriodXLETrade.csv` and `RVFullPeriodXLFTrade.csv` in the folder `01DensityForecasts/Data`. The series Energy Select Sector SPDR Fund (ticker: `XLE`) and Financial Select Sector SPDR (ticker: `XLF`) are downloaded from [Yahoo Finance](https://finance.yahoo.com/quote/XLE/) through the `yfinance` module by running the Python script `01DensityForecasts/Data/EmpiricalDataMultivariateRiskMan.py`, which also transforms the prices into log returns and merges the XLE and XLF data with the corresponding deannualized realized measure.  
 
+
+### Code
+
+### Output
+
+## INFLATION
+Directory: `INFLATION_Table_2_Appendix_I/`
+
+### Data
+The inflation data is sourced from the code provided by Medeiros et al. (2021) and stored as `01DensityForecasts/Data/Data.Rdata`. Run the R script `01_data_acc.R` to construct the accumulated inflation for each horizon. The resulting datasets are saved in the `Data` directory as both `mYAcc.Rdata` and `mYAcc.npy` file. In addition, the last 180 months of observations are saved separately in the same formats, under the files `YAcc.Rdata` and `mYAcc.npy`. 
 
 ### Code
 
@@ -32,8 +42,6 @@ Directory: `CLIMATE_Table_2_Appendix_I/`
 
 ### Data
 The temperature data is downloaded as a `.txt` file directly from [KNMI - Daily Weather Data De Bilt](https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_260.zip), starting on January 1, 1901, and updated regularly. From this file we extract the columns `YYYYMMDD` (=Date), `TG` (=TempAvg, average temperature), `TN` (=TempMin, minimum temperature), `TX` (=TempMax, maximum temperature), and save them to Excel, resulting in `01DensityForecasts/ClimateKNMI_Temp.xlsx`. In `01DensityForecasts/ClimateMain.py` we divide the raw values by ten to convert them to degrees Celcius, and select the required sample period (sStart =`2003-02-01`, sEnd = `2023-01-31`).
-
-
 
 ### Code
 
