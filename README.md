@@ -31,7 +31,7 @@ Download the Realized Volatility measures via Dacheng Xiu's [Risk Lab](https://d
 Directory: `INFLATION_Table_2_Appendix_I/`
 
 ### Data
-The inflation data is sourced from the code provided by Medeiros et al. (2021) and stored as `01DensityForecasts/Data/Data.Rdata`. Run the R script `01_data_acc.R` to construct the accumulated inflation for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` directory as both `mYAcc.Rdata` and `mYAcc.npy` file. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAcc.Rdata` and `mYAcc.npy`. 
+The inflation data is sourced from the code provided by Medeiros et al. (2021) and stored as `01DensityForecasts/Data/Data.Rdata`. Run the R script `01_data_acc.R` to construct the accumulated inflation for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` directory as both `mYAcc.Rdata` and `mYAcc.npy` file. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAccOut.Rdata` and `mYAccOut.npy`. 
 
 ### Code
 
