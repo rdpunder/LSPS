@@ -9,10 +9,9 @@ This repository provides the data and code to reproduce all the empirical and Mo
 Directory: `CLIMATE_Table_2_Appendix_I/`
 
 ### Data
-Download the Realized Volatility measure via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`) and the period `All`. 
-The S&P500 series is downloaded from Yahoo Finance through the `yfinance` module by running the Python script `DataConstruction/EmpiricalDataRiskMan.py`. 
+Download the Realized Volatility measure via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`) and the period `All`. The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the folder `01DensityForecasts`. The S&P500 series (ticker: `SPY`, `Adj. close') is downloaded from (Yahoo Finance)[https://finance.yahoo.com/?guccounter=1] through the `yfinance` module by running the Python script `01DensityForecasts/EmpiricalDataRiskMan.py`, which also merges the SP500 data with the realized measure.  
 
-data is downloaded as a `.txt` file directly from [KNMI - Daily Weather Data De Bilt](https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_260.zip), starting on January 1, 1901, and updated regularly. From this file we extract the columns `YYYYMMDD` (=Date), `TG` (=TempAvg, average temperature), `TN` (=TempMin, minimum temperature), `TX` (=TempMax, maximum temperature), and save them to Excel, resulting in `01DensityForecasts/ClimateKNMI_Temp.xlsx`. In `01DensityForecasts/ClimateMain.py` we divide the raw values by ten to convert them to degrees Celcius, and select the required sample period (sStart =`2003-02-01`, sEnd = `2023-01-31`).
+
 
 
 
