@@ -6,13 +6,21 @@ This repository provides the data and code to reproduce all the empirical and Mo
 ## Structure of the repository
 
 ## RISK MANAGEMENT
-Directory: `CLIMATE_Table_2_Appendix_I/`
+Directory: `RISK_MANAGEMENT_Table_2_Appendix_I/`
 
 ### Data
-Download the Realized Volatility measure via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`) and the period `All`. The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the folder `01DensityForecasts`. The S&P500 series (ticker: `SPY`, `Adj. close') is downloaded from (Yahoo Finance)[https://finance.yahoo.com/?guccounter=1] through the `yfinance` module by running the Python script `01DensityForecasts/EmpiricalDataRiskMan.py`, which also merges the SP500 data with the realized measure.  
+Download the Realized Volatility measure via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`) for the period `All`. The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the subdirectory `01DensityForecasts`. The S&P500 series (ticker: `SPY`) is downloaded from [Yahoo Finance](https://finance.yahoo.com/quote/SPY/) through the `yfinance` module by running the Python script `01DensityForecasts/EmpiricalDataRiskMan.py`, which also transforms the prices into log returns and merges the S&P500 data with the deannualized realized measure.  
 
 
+### Code
 
+### Output
+
+## MULTIVARIATE RISK MANAGEMENT
+Directory: `MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/`
+
+### Data
+Download the Realized Volatility measures via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting, for the period `All`, trades of (i) `SELECT SECTOR SPDR TRUST` (symbol=`XLE`, PN=`86454`), and (ii) trades of `SELECT SECTOR SPDR TRUST` (symbol=`XLF`, PN=`86455`) for the period `All` The downloaded files contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as the `.csv` files `RVFullPeriodXLETrade.csv` and `RVFullPeriodXLFTrade.csv` in the folder `01DensityForecasts`. The series Energy Select Sector SPDR Fund (ticker: `XLE`) and Financial Select Sector SPDR (ticker: `XLF`) are downloaded from [Yahoo Finance](https://finance.yahoo.com/quote/XLE/) through the `yfinance` module by running the Python script `01DensityForecasts/EmpiricalDataMultivariateRiskMan.py`, which also transforms the prices into log returns and merges the XLE and XLF data with the corresponding deannualized realized measure.  
 
 
 ### Code
