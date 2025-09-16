@@ -60,11 +60,11 @@ Navigate to the directory `03MCS`. Run the scripts `MCSAnalysisRiskManIndProd.py
 Directory: `INFLATION_Table_2_Appendix_I/`
 
 ### Data
-The inflation data is sourced from the code provided by Medeiros et al. (2021) and stored as `01DensityForecasts/Data/Data.Rdata`. Run the R script `01_data_acc.R` to construct the accumulated inflation for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` directory as both `mYAcc.Rdata` and `mYAcc.npy` file. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAccOut.Rdata` and `mYAccOut.npy`. 
+For the data construction, we adopt the procedure of Medeiros et al. (2021), made available through the GitHub repository [gabrielrvsc/ForecastingInflation](https://github.com/gabrielrvsc/ForecastingInflation/tree/main).  Download the current monthly vintage `current.csv` of the FRED-MD monthly data via the [McCracken Database](https://www.stlouisfed.org/research/economists/mccracken/fred-databases). Run the R script `01_get_fred_data.R` to convert the raw file into `data.rda`, which will be stored in the `01DensityForecasts/Data` folder. Subsequently run the R script `01_data_acc.R` to construct the accumulated inflation for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` directory as both `mYAcc.Rdata` and `mYAcc.npy` files. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAccOut.Rdata` and `mYAccOut.npy`. 
 
 ### Code
 The code is organized in the three folders introduced above.
-1. Navigate to the directory `01DensityForecasts`. The construction of the mean of the density forecasts relies on Medeiros et al. (2021), hence each individual forecast method now has its own R script:
+1. Navigate to the directory `01DensityForecasts`. The construction of the mean of the density forecasts also strongly relies on Medeiros et al. (2021), hence each individual forecast method now has its own R script:
     * AR model: `02A_call_model_ar.R`
     * Bagging: `02B_call_model_bagging`
     * Complete Subset Regression: `02C_call_model_csr.R`
