@@ -93,41 +93,19 @@ Directory: `CLIMATE_Table_2_Appendix_I/`
 The temperature data is downloaded as a `.txt` file directly from [KNMI - Daily Weather Data De Bilt](https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_260.zip), starting on January 1, 1901, and updated regularly. From this file we extract the columns `YYYYMMDD` (=Date), `TG` (=TempAvg, average temperature), `TN` (=TempMin, minimum temperature), `TX` (=TempMax, maximum temperature), and save them to Excel, resulting in `01DensityForecasts/ClimateKNMI_Temp.xlsx`. In `01DensityForecasts/ClimateMain.py` we divide the raw values by ten to convert them to degrees Celcius, and select the required sample period (sStart =`2003-02-01`, sEnd = `2023-01-31`).
 
 ### Code
+The code is organized in the three folders introduced above.
+1. Navigate to the directory `01DensityForecasts`. The main script is `ClimateMain.py`, for which a sample bashscript `S1_ClimateMain.sh` is provided to facilitate parallel computation. The main script depends on `ClimateBasis.py`, which implements fundamental routines including the rolling window estimation procedure. For the individual forecast methods, we have split the functions into three files labeled `ClimateLocMeanSinGARCH.py`, `ClimateLocMeanSinGARCHI.py` and `ClimateLocMeanSinGARCHII.py` for the different variance updating equations. Executing `ClimateMain.py` produces the parameter estimates of the density forecasts based on the observations in the `ClimateKNMI_Temp.xlsx` file and stores them as `.npy` files in the `mParamsDF` subdirectory. It additionally saves the out-of-sample observations in separate `.npy` files. After completion, the folder `mParamsDF` should be manually copied to `02Scores`.
+
+2. Navigate to the directory `02Scores`. Separate main scripts for the right tail (*R*) and center (*C*) indicator weight function are included as `ClimateScoreCalcMain_R.py` and `ClimateScoreCalcMain_C.py`, respectively, with example bash scripts `S1_ClimateScores_C.sh` and `S1_ClimateScores_R.sh`. The main scripts depend on the functions in `ScoreBasis.py`, `ScoringRules.py` and `Weightfunctions.py`, including fundamental supporting functions, scoring rules and weight functions, respectively. Execution of the main scripts produces the scores of the density forecasts built on the parameters and out-of-sample observations in `mParamsDF` and saves them as `.npy` files into the folder `mScores`, which should be manually copied to `03MCS` upon completion.
+ 
+3. Navigate to the directory `03MCS`. Running the R scripts `MCSTables_ClimateTails.R` and `MCSTables_ClimateCenter.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subdirectory `MCSTables`. 
 
 ### Output
+Navigate to the directory `03MCS`. Run the scripts `MCSAnalysisInflationTails.py` and `MCSAnalysisRiskManLogProd3.py`. The MCS results in the directory `MCSTables` will be translated into the table with MCS p-values in **Table I8** (for the right tail indicator weight function) and **Table I9** (for the center indicator weight function) and the summary values in the Climate panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
+## MONTE CARLO
+Directory: `MONTE_CARLO_Appendix_G/`
 
-
-### TABLE 2 and APPENDIX I: Empirical Studies
-In Table 2 of Section 4, we present summary results on differences in Model Confidence Set (MCS) cardinality for α=0.90 and in Table I1 we display the summary results for α=0.75. For every subsection, for every weight function, Appendix I includes a separate Table reporting the underlying MCS p-values. In directory TABLE_2_AND_APPENDIX_I, we have created the following subdirectories to reproduce all empirical results:
-
-#### RiskManagement
-- Table 2 panel Sec 4.1, I_L 
-- Table I1 panel Sec 4.1, I_L
-- Table I2 MCS p-values Sec 4.1, I_L
-- Table I3 Robustness checks Sec 4.1, I_L
-
-#### MultivariateRiskManagement
-- Table 2 panels Sec 4.1, I_L^2 and Λ_3^2
-- Table I1 panels Sec 4.1, I_L^2 and Λ_3^2
-- Table I4 MCS p-values Sec 4.1, I_L^2
-- Table I5 MCS p-values Sec 4.1, Λ_3^2
-
-#### Inflation
-- Table 2 panels Sec 4.2, I_C and I_C^c
-- Table I1 panels Sec 4.2, I_C and I_C^c
-- Table I6 MCS p-values Sec 4.2, I_L^2
-- Table I7 MCS p-values Sec 4.2, Λ_3^2
-
-#### Climate
-- Table 2 panels Sec 4.3, I_R and I_C
-- Table I1 panels Sec 4.3, I_R and I_C
-- Table I8 MCS p-values Sec 4.3, I_R
-- Table I9 MCS p-values Sec 4.3, I_C
-
-Each subdirectory has three further subdirectories: *01DensityForecasts*, *02Scores*, *03MCS* and a ReadMe.txt file listing the specific steps per application for reproduction. In the *01DensityForecasts* directories, application-based data is taken as input to produce the (parameters of) the density forecasts, saved into *mParamsDF*. The *02Scores* directories calculate the scores based on the parameters of the density forecasts in *mParamsDF* and the data. In the *03MCS* directories, MCS Tables are calculated per threshold/quantile of the weight function by using the R package MCS developed by Bernardi and Catania (2018). MCS tables for Appendix I and summary results for Table 2 and Table I1 are then generated by a Python wrapper in the *MCSTables* subdirectories. 
-
-### APPENDIX G: Monte Carlo Study
 The Monte Carlo Study detailed in Appendix G includes a size experiment and three power experiments: Normal vs. Student-t(5) left-tail, Normal vs. Student-t(5) center and Laplace(-1,1) vs. Laplace(1,1.1). The power studies are supplemented with the analysis of the associated local divergences, for which we include separate folders per experiment. In total, this yields seven subdirectories for the reproduction of the figures in Appendix G, with titles indicating which figure is reproduced (e.g. *FIG_G1_Size* for the reproduction of Figure G.1). In each subdirectory, a ReadMe.txt file is included with more specific instructions. The common structure of the subdirectories is to first calculate the desired scores (e.g. by running *01SizeMainCalc*) and then generate the plots by a different script (e.g. *02SizeMain_Plot.py*).
 
 ### EXAMPLE 6: Mitchell and Weale (2023)
