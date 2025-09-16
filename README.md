@@ -48,11 +48,13 @@ Download the Realized Volatility measures via Dacheng Xiu's [Risk Lab](https://d
 The code follows the same structure as above.
 1. Navigate to the directory `01DensityForecasts`. The main script is `RiskManMainMV.py`, for which a sample bashscript `S1_RiskManBivariate.sh` is provided to facilitate parallel computation. The main script relies on `RiskManBasisMV.py`, which implements fundamental routines including the rolling window estimation procedure, and on `DCCmodel.py` together with `TGARCHmodel.py` and `BivariateT.py`, which implement the individual forecast methods. Running `RiskManMainMV.py` generates parameter estimates of the density forecasts based on the observations in the `Data` folder and stores them as `.npy` files in the `mParamsDF` subdirectory. After completion, the folders `Data` and `mParamsDF` should be manually copied to `02Scores`.
 
-2. Navigate to the directory `02Scores`. Separate main scripts for the indicator product and logistic product weight function are included as `RiskManMainMVIndProd.py` and `RiskManMainMVLogProd3.py`, respectively, with example bash scripts `S6_RiskManScoresMVIndProd.sh' and `S6_RiskManScoresMVLogProd3.sh`. The main scripts depend on the functions in `RiskManBasisMV.py`, `BivariateT.py`, `ScoringRulesMV.py` and `WeightfunctionsMV.py`, including fundamental supporting functions, a custom function for the bivariate t distribution, scoring rules and weight functions, respectively. Execution of `RiskManScoreCalcMain.py`, e.g. using the sample bash script `S1_RiskManScores.sh`, produces the scores of the density forecasts built on the parameters in `mParamsDF` and the associated observations in `Data` and saves them as `.npy` files into the folder `mScores`, which should be manually copied to `03MCS` upon completion.
+2. Navigate to the directory `02Scores`. Separate main scripts for the indicator product and logistic product weight function are included as `RiskManMainMVIndProd.py` and `RiskManMainMVLogProd3.py`, respectively, with example bash scripts `S6_RiskManScoresMVIndProd.sh` and `S6_RiskManScoresMVLogProd3.sh`. The main scripts depend on the functions in `RiskManBasisMV.py`, `BivariateT.py`, `ScoringRulesMV.py` and `WeightfunctionsMV.py`, including fundamental supporting functions, a custom function for the bivariate t distribution, scoring rules and weight functions, respectively. Execution of the main scripts, e.g. using the sample bash script `S1_RiskManScores.sh`, produces the scores of the density forecasts built on the parameters in `mParamsDF` and the associated observations in `Data` and saves them as `.npy` files into the folder `mScores`, which should be manually copied to `03MCS` upon completion.
  
-3. Navigate to the directory `03MCS`. Running the R script `MCSTables_RiskMan.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subdirectory `MCSTables`. 
+3. Navigate to the directory `03MCS`. We use the same split as in step 2 per weight function. Running the R scripts `RiskManMCSBivariateIndProd.R` and `RiskManMCSBivariateLogProd3.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subdirectory `MCSTables`. 
 
 ### Output
+Navigate to the directory `03MCS`. Run the scripts `MCSAnalysisRiskManIndProd.py` and `MCSAnalysisRiskManLogProd3.py`. The MCS results in the directory `MCSTables` will be translated into the table with MCS p-values in **Table I4** (for the weight function IndicatorProduct) and **Table I5** (for the weight function LogisticProduct) and the summary values in the Risk Management panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
+
 
 ## INFLATION
 Directory: `INFLATION_Table_2_Appendix_I/`
@@ -61,8 +63,28 @@ Directory: `INFLATION_Table_2_Appendix_I/`
 The inflation data is sourced from the code provided by Medeiros et al. (2021) and stored as `01DensityForecasts/Data/Data.Rdata`. Run the R script `01_data_acc.R` to construct the accumulated inflation for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` directory as both `mYAcc.Rdata` and `mYAcc.npy` file. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAccOut.Rdata` and `mYAccOut.npy`. 
 
 ### Code
+The code is organized in the three folders introduced above.
+1. Navigate to the directory `01DensityForecasts`. The procedure of construction the mean of the density forecasts is relies on Medeiros et al. (2021), hence each individual forecast method now has its own R script:
+    * AR model: `02A_call_model_ar.R`
+    * Bagging: `02B_call_model_bagging`
+    * Complete Subset Regression: `02C_call_model_csr.R`
+    * LASSO: `02D_call_model_lasso.R`
+    * Random Forest: `02E_call_model_rf.R`
+    * Random Walk: `02F_call_model_rw.R`
+The individual scripts rely on the supporting functions in the files `Functions/functions.R` and `rolling_window_tpnorm.R`, calculate the (parameters of) the density forecasts and save them as both `.rda` and `.npy` files in the `mParamsDF` directory.
+After completion, the folders `Data` and `mParamsDF` should be manually copied to `02Scores`.
+
+2. Navigate to the directory `02Scores`. We have devided the computation tasks per horizon (*h=6* and *h=24*) and weight function (tails (*T*) and center (*C*)), corresponding to the main scripts
+    * `InflationScoreCalcMain_T_h6.py` (`S1_InflationScores_T_h6.sh`)
+    * `InflationScoreCalcMain_T_h24.py` (`S1_InflationScores_T_h24.sh`)
+    * `InflationScoreCalcMain_C_h6.py` (`S1_InflationScores_C_h6.sh`)
+    * `InflationScoreCalcMain_C_h24.py` (`S1_InflationScores_C_h24.sh`)
+   with respective example bash scripts in between brackets. The main scripts depend  which depend on the functions in `ScoreBasisInflation.py`, `ScoringRules.py` and `Weightfunctions.py`, including fundamental supporting functions, scoring rules and weight functions, respectively. Execution of a main script produces the scores of the density forecasts built on the parameters in `mParamsDF` and the associated observations in `Data` and saves them as `.npy` files into the folder `mScores`, which should be manually copied to `03MCS` upon completion.
+ 
+3. Navigate to the directory `03MCS`. Running the R scripts `MCSTables_InflationTails.R` and `MCSAnalysisInflationCenter.py` produces the MCS p-values for the tails and center indicator weight function based on the scores in `mScores` and saves them as `.xlsx` files in the subdirectory `MCSTables`. 
 
 ### Output
+Navigate to the directory `03MCS`. Run the scripts `MCSAnalysisInflationTails.py` and `MCSAnalysisRiskManLogProd3.py`. The MCS results in the directory `MCSTables` will be translated into the table with MCS p-values in **Table I6** (for the tails indicator weight function) and **Table I7** (for the center indicator weight function) and the summary values in the Inflation panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 ## CLIMATE
 Directory: `CLIMATE_Table_2_Appendix_I/`
