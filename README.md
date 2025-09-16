@@ -9,7 +9,7 @@ For every empirical application, the MCS p-values reported in Appendix I, underl
 * **02Scores**: Compute the scores from each forecast method of step 1 under the scoring rules for which MCS p-values have to be calculated.
 * **03MCS**: Apply the MCS procedure, relying on the R package MCS by Bernardi and Catania (2018), to the scores from step 2 and calculate the percentages and ratios reported in Table 2. 
  
-Specific details per application are given below. The computation time of individual files can found in  `ComputationTimePerFile.xlsx`.
+Specific details per application are given below. The computation time of individual files can found in  `ComputationTimePerFile.xlsx`. The scripts contained in the directories listed above rely on a set of supporting libraries. To ensure consistency and reproducibility, we used a virtual environment that can be reconstructed by creating a novel virtual environment and installing all required libraries by the provided `requirements.txt` file using `pip install -r requirements.txt`.
 
 
 ## RISK MANAGEMENT
