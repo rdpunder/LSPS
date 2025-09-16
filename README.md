@@ -2,8 +2,62 @@
 
 This repository provides the data and code to reproduce all the empirical and Monte Carlo simulation results contained in the paper **Localizing Strictly Proper Scoring Rules**.
 
+The repository contains 6 folders. First, each of the four empiricial applications: Risk Management, Multivariate Risk Management, Inflation and Climate has its own folder. The other two folders belong to the Monte Carlo study and the numerical calculation of Example 6.
 
-## Structure of the repository
+For every empirical application, the MCS p-values reported in Appendix I, underlying Table 2, are obtained by following three steps:
+* **01DensityForecasts**: Preprocess the data and estimate parameters using application specific forecast methods to construct density forecasts.
+* **02Scores**: Compute the scores from each forecast method of step 1 under the scoring rules for which MCS p-values have to be calculated.
+* **03MCS**: Apply the MCS procedure to the scores from step 2 and calculate the percentages and ratios reported in Table 2. 
+ 
+Specific details per application are given below. 
+
+
+## RISK MANAGEMENT
+Directory: `RISK_MANAGEMENT_Table_2_Appendix_I/`
+
+### Data
+Download the Realized Volatility measure via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`) for the period `All`. The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the subdirectory `01DensityForecasts/Data`. The S&P500 series (ticker: `SPY`) is downloaded from [Yahoo Finance](https://finance.yahoo.com/quote/SPY/) through the `yfinance` module by running the Python script `01DensityForecasts/Data/EmpiricalDataRiskMan.py`, which also transforms the prices into log returns and merges the S&P500 data with the deannualized realized measure.  
+
+### Code
+The code is organized in the three folders introduced above.
+1. Navigate to `01DensityForecasts`. Run the file RiskManMain.py to
+
+
+### Output
+
+
+## MULTIVARIATE RISK MANAGEMENT
+Directory: `MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/`
+
+### Data
+Download the Realized Volatility measures via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting, for the period `All`, trades of (i) `SELECT SECTOR SPDR TRUST` (symbol=`XLE`, PN=`86454`), and (ii) trades of `SELECT SECTOR SPDR TRUST` (symbol=`XLF`, PN=`86455`) for the period `All` The downloaded files contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as the `.csv` files `RVFullPeriodXLETrade.csv` and `RVFullPeriodXLFTrade.csv` in the folder `01DensityForecasts/Data`. The series Energy Select Sector SPDR Fund (ticker: `XLE`) and Financial Select Sector SPDR (ticker: `XLF`) are downloaded from [Yahoo Finance](https://finance.yahoo.com/quote/XLE/) through the `yfinance` module by running the Python script `01DensityForecasts/Data/EmpiricalDataMultivariateRiskMan.py`, which also transforms the prices into log returns and merges the XLE and XLF data with the corresponding deannualized realized measure.  
+
+
+### Code
+
+### Output
+
+## INFLATION
+Directory: `INFLATION_Table_2_Appendix_I/`
+
+### Data
+The inflation data is sourced from the code provided by Medeiros et al. (2021) and stored as `01DensityForecasts/Data/Data.Rdata`. Run the R script `01_data_acc.R` to construct the accumulated inflation for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` directory as both `mYAcc.Rdata` and `mYAcc.npy` file. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAccOut.Rdata` and `mYAccOut.npy`. 
+
+### Code
+
+### Output
+
+## CLIMATE
+Directory: `CLIMATE_Table_2_Appendix_I/`
+
+### Data
+The temperature data is downloaded as a `.txt` file directly from [KNMI - Daily Weather Data De Bilt](https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_260.zip), starting on January 1, 1901, and updated regularly. From this file we extract the columns `YYYYMMDD` (=Date), `TG` (=TempAvg, average temperature), `TN` (=TempMin, minimum temperature), `TX` (=TempMax, maximum temperature), and save them to Excel, resulting in `01DensityForecasts/ClimateKNMI_Temp.xlsx`. In `01DensityForecasts/ClimateMain.py` we divide the raw values by ten to convert them to degrees Celcius, and select the required sample period (sStart =`2003-02-01`, sEnd = `2023-01-31`).
+
+### Code
+
+### Output
+
+
 
 ### TABLE 2 and APPENDIX I: Empirical Studies
 In Table 2 of Section 4, we present summary results on differences in Model Confidence Set (MCS) cardinality for α=0.90 and in Table I1 we display the summary results for α=0.75. For every subsection, for every weight function, Appendix I includes a separate Table reporting the underlying MCS p-values. In directory TABLE_2_AND_APPENDIX_I, we have created the following subdirectories to reproduce all empirical results:
