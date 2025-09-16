@@ -4,7 +4,7 @@ Steps to reproduce results Risk Management Application
 
 2. Run 02Scores/RiskManScoreCalcMain.py. The script calculates the scores based on the density forecast (parameters) in the directory mParamsDF. The scores are saved as a .npy file in the directory mScores. After completion, copy the entire directory mScores to 03MCS for step 3.
 
-3. Run 03MCS/MCSTables_RiskMan.R in R. MCS Tables are calculated based on the R package MCS by Bernardi and Catania (2018). Running the R scripts produces MCS tables, saved as .xlsx files in the directory MCSTables.  After completion, run 03MCS/MCSAnalysisClimate_Center.py and MCSAnalysisClimate_Tails.py. The MCS tables in the directory MCSTables will be translated into the table with MCS p-values and the risk management panel in Tables 2 and I1. 
+3. Run 03MCS/MCSTables_RiskMan.R in R. MCS Tables are calculated based on the R package MCS by Bernardi and Catania (2018). Running the R scripts produces MCS tables, saved as .xlsx files in the directory MCSTables.  After completion, run 03MCS/MCSAnalysisRiskManagement.py. The MCS tables in the directory MCSTables will be translated into the table with MCS p-values and the risk management panel in Tables 2 and I1. 
 
 4.1 Redo step 1 for 01DensityForecasts/RiskManMainTest750.py and 01DensityForecasts/RiskManMainTest1250.py.
 4.2 Redo step 2 for 02Scores/RiskManScoreCalcMainTest750.py and 02Scores/RiskManScoreCalcMainTest1250.py. 

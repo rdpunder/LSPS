@@ -1,12 +1,12 @@
 Steps to reproduce results Inflation Application
 ------
-1. The procedure of construction the mean of the density forecasts is inspired by the steps put forward by Medeiros et al. (2021) First, run 01_random_walk_oos_y.R and then 02_data_acc.R. Then, run the individual models 
- A. 03A_call_model_ar.R 
- B. 03B_call_model_bagging.R
- C. 03C_call_model_csr.R
- D. 03D_call_model_lasso.R
- E. 03E_call_model_rf.R
- F. 03F_call_model_rw.R
+1. The procedure of construction the mean of the density forecasts is inspired by the steps put forward by Medeiros et al. (2021) First, run 01_data_acc.R. Then, run the individual models 
+ A. 02A_call_model_ar.R 
+ B. 02B_call_model_bagging.R
+ C. 02C_call_model_csr.R
+ D. 02D_call_model_lasso.R
+ E. 02E_call_model_rf.R
+ F. 02F_call_model_rw.R
 
 The individual scripts calculate the (parameters of) the density forecasts and save them as both .rda and .npy files in the mParamsDF directory. After completion, copy the entire directory mParamsDF to 02Scores for step 2.
 
