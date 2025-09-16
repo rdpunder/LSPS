@@ -2,8 +2,15 @@
 
 This repository provides the data and code to reproduce all the empirical and Monte Carlo simulation results contained in the paper **Localizing Strictly Proper Scoring Rules**.
 
+The repository contains 6 folders. First, each of the four empiricial applications: Risk Management, Multivariate Risk Management, Inflation and Climate has its own folder. The other two folders belong to the Monte Carlo study and the numerical calculation of Example 6.
 
-## Structure of the repository
+For every empirical application, the MCS p-values reported in Appendix I, underlying Table 2, are obtained by following three steps:
+* **01DensityForecasts**: Preprocess the data and estimate parameters using application specific forecast methods to construct density forecasts.
+* **02Scores**: Compute the scores from each forecast method of step 1 under the scoring rules for which MCS p-values have to be calculated.
+* **03MCS**: Apply the MCS procedure to the scores from step 2 and calculate the percentages and ratios reported in Table 2. 
+ 
+Specific details per application are given below. 
+
 
 ## RISK MANAGEMENT
 Directory: `RISK_MANAGEMENT_Table_2_Appendix_I/`
