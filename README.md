@@ -108,11 +108,9 @@ Directory: `MONTE_CARLO_Appendix_G/`
 
 The Monte Carlo Study detailed in Appendix G includes a size experiment and three power experiments: Normal vs. Student-t(5) left-tail, Normal vs. Student-t(5) center and Laplace(-1,1) vs. Laplace(1,1.1). The power studies are supplemented with the analysis of the associated local divergences, for which we include separate folders per experiment. In total, this yields seven subdirectories for the reproduction of the figures in Appendix G, with titles indicating which figure is reproduced (e.g. *FIG_G1_Size* for the reproduction of Figure G.1). In each subdirectory, a ReadMe.txt file is included with more specific instructions. The common structure of the subdirectories is to first calculate the desired scores (e.g. by running *01SizeMainCalc*) and then generate the plots by a different script (e.g. *02SizeMain_Plot.py*).
 
-### EXAMPLE 6: Mitchell and Weale (2023)
+## MITCHELL AND WEALE (EXAMPLE 6)
 In Example 6 of Section 3.4, we provide a specific example for which the expected score difference based on the weighted scoring rule by Mitchell and Weale (2023) is negative for α>α_0. The aim of directory *EXAMPLE_6* is to reproduce the (rounded) number α_0 = 0.052 and to graphically verify the inequality α>α_0. We refer to the *ReadMe.txt* in this directory for further instructions.
 
-## Requirements
-The scripts contained in the directories listed above rely on a set of supporting libraries. To ensure consistency and reproducibility, we used a virtual environment that can be reconstructed by creating a novel virtual environment and installing all required libraries by the provided requirements.txt file using *pip install -r requirements.txt*.
 
 ## Other files
 - requirements.txt: required libraries and packages
