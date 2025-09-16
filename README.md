@@ -65,12 +65,12 @@ For the data construction, we adopt the procedure of Medeiros et al. (2021), mad
 ### Code
 The code is organized in the three folders introduced above.
 1. Navigate to the directory `01DensityForecasts`. The construction of the mean of the density forecasts also strongly relies on Medeiros et al. (2021), hence each individual forecast method now has its own R script:
-    * AR model: `02A_call_model_ar.R`
-    * Bagging: `02B_call_model_bagging`
-    * Complete Subset Regression: `02C_call_model_csr.R`
-    * LASSO: `02D_call_model_lasso.R`
-    * Random Forest: `02E_call_model_rf.R`
-    * Random Walk: `02F_call_model_rw.R`
+    * AR model: `03A_call_model_ar.R`
+    * Bagging: `03B_call_model_bagging`
+    * Complete Subset Regression: `03C_call_model_csr.R`
+    * LASSO: `03D_call_model_lasso.R`
+    * Random Forest: `03E_call_model_rf.R`
+    * Random Walk: `03F_call_model_rw.R`
 The individual scripts rely on the supporting functions in the files `Functions/functions.R` and `rolling_window_tpnorm.R`, calculate the (parameters of) the density forecasts and save them as both `.rda` and `.npy` files in the `mParamsDF` directory.
 After completion, the folders `Data` and `mParamsDF` should be manually copied to `02Scores`.
 
