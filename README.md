@@ -127,7 +127,37 @@ Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisClimate_Tails.py` an
 ## MONTE CARLO
 Folder: [MONTE_CARLO_Appendix_G](MONTE_CARLO_Appendix_G)
 
-The Monte Carlo Study detailed in Appendix G includes a size experiment and three power experiments: Normal vs. Student-t(5) left-tail, Normal vs. Student-t(5) center and Laplace(-1,1) vs. Laplace(1,1.1). The power studies are supplemented with the analysis of the associated local divergences, for which we include separate folders per experiment. In total, this yields seven subdirectories for the reproduction of the figures in Appendix G, with titles indicating which figure is reproduced (e.g. *FIG_G1_Size* for the reproduction of Figure G.1). In each subfolder, a ReadMe.txt file is included with more specific instructions. The common structure of the subdirectories is to first calculate the desired scores (e.g. by running *01SizeMainCalc*) and then generate the plots by a different script (e.g. *02SizeMain_Plot.py*).
+### Data
+The data is simulated under different DGPs:
+* Normal(-0.2,1) and Normal(0.2,1) in the size experiment.
+* Normal(0,1) and Student-t(5) in the first two power experiments (Figures G2 and G4).
+* Laplace(-1,1) and Laplace(1,1.1) in the final power experiment (Figure G6).
+
+By running the `Calc` scripts under Code below, data is temporarily saved in the empty folder `mDataAndWeights`.
+
+### Code
+The Monte Carlo Study detailed in Appendix G includes a size experiment and three power experiments: Normal vs. Student-t(5) left-tail, Normal vs. Student-t(5) center and Laplace(-1,1) vs. Laplace(1,1.1). The power studies are supplemented with the analysis of the associated local divergences, for which we include separate folders per experiment. In total, this yields seven subdirectories for the reproduction of the figures in Appendix G, with titles indicating which figure is reproduced (e.g. *FIG_G1_Size* for the reproduction of Figure G.1). 
+
+* [FIG_G1_Size](MONTE_CARLO_Appendix_G/FIG_G1_Size): Size experiment. For reproduction, run
+    1. `01SizeMain_Calc.py`, which computes the DM test statistics and saves them as `.npy` file in the [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G1_Size/mDMCalc) folder.
+    2. `02SizeMain_Plot.py`, which calculates the rejection rates from the DM test statistics in [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G1_Size/mDMCalc), generates **Figure G1**, and saves it as `.pdf` file in the [Figures](MONTE_CARLO_Appendix_G/FIG_G2_RejRates_NS5_L_C20) folder.
+* [FIG_G2_RejRates_NS5_L_C20](MONTE_CARLO_Appendix_G/FIG_G2_RejRates_NS5_L_C20): Rejection rates for power study Normal(0,1) versus Student-t(5) where the region of interest is the left-tail, with *c=20* tail observations. For reproduction, run
+    1. `01SizeMain_Calc.py`, which computes the DM test statistics and saves them as `.npy` file in the [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G2_RejRates_NS5_L_C20/mDMCalc) folder.
+    2. `02SizeMain_Plot.py`, which calculates the rejection rates from the DM test statistics in [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G2_RejRates_NS5_L_C20/mDMCalc), generates **Figure G2**, and saves it as `.pdf` file in the [Figures](MONTE_CARLO_Appendix_G/FIG_G2_RejRates_NS5_L_C20/Figures) folder.
+* [FIG_G3_LocalDiv_NS5_L_C20](MONTE_CARLO_Appendix_G/FIG_G3_RejRates_NS5_L_C20): Standardized local divergences for Normal(0,1) versus Student-t(5) where the region of interest is the left-tail, with *c=20* tail observations. For reproduction, run
+    1. `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py`, which compute the standardized divergences (where the B version switches the order of the distributions compared to A) and save the resulting `.xlsx` files in the [FIG_G3_LocalDiv_NS5_L_C20](MONTE_CARLO_Appendix_G/FIG_G3_RejRates_NS5_L_C20) folder.
+    2. `02DivergencesMain_Plot.py`, which calculates the rejection rates from the DM test statistics in [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G3_RejRates_NS5_L_C20/mDMCalc), generates **Figure G3**, and saves it as `.pdf` file in the [Figures](MONTE_CARLO_Appendix_G/FIG_G3_RejRates_NS5_L_C20/Figures) folder.
+
+
+
+1. Run 01_A_DivergencesMain_Calc.py. A sample bash script, S1_Divergences_A.sh, is provided for your convenience. The script computes the standardized divergences and saves the resulting .xlsx file in the OutputDataFrames directory. 
+2. Run 01_B_DivergencesMain_Calc.py. See 1., script runs for switched order of distributions. See S1_Divergences_B.sh for an example bash script.
+3. Run 02DivergencesMain_Plot.py. The file generates five figures saved in the folder Figures.
+In each subfolder, a ReadMe.txt file is included with more specific instructions. 
+1. 
+
+
+The common structure of the subdirectories is to first calculate the desired scores (e.g. by running *01SizeMainCalc*) and then generate the plots by a different script (e.g. *02SizeMain_Plot.py*).
 
 ## MITCHELL AND WEALE (EXAMPLE 6)
 Folder: `MITCHELL_AND_WEALE_Example_6`
