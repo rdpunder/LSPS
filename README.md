@@ -20,7 +20,9 @@ The data are stored in the folder [01DensityForecasts/Data](RISK_MANAGEMENT_Tabl
 
 To reconstruct the data file, navigate to the folder [01DensityForecasts/Data/DataConstruction](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction). 
 Download the realized volatility measures via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`). 
-The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the subdirectory `01DensityForecasts/Data`. The `SPY` series has been obtained from [Yahoo Finance](https://finance.yahoo.com/quote/XLE/) through the `yfinance` module. 
+The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. 
+Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the subdirectory [01DensityForecasts/Data/DataConstruction](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction). 
+The `SPY` series has been obtained from [Yahoo Finance](https://finance.yahoo.com/quote/XLE/) through the `yfinance` module. 
 The script `EmpiricalDatavRiskMan.py` located in the [DataConstruction](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction) folder, downloads the price series, transforms it into log returns, and merges it with the correponding deannualized realized measure. 
 The script produces the file `SP500andRealVol1995Xiu.csv`, which can then be copied to the [01DensityForecasts/Data](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data) folder.
 For exact replication of results, we recommend using the provided file `SP500andRealVol1995Xiu.csv` in [01DensityForecasts/Data](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data).
