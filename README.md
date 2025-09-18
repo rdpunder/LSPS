@@ -125,7 +125,7 @@ The code is organized in the three folders introduced above.
 Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisClimate_Tails.py` and `MCSAnalysisClimate_Center.py`. The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I8** (for the right tail indicator weight function) and **Table I9** (for the center indicator weight function) and the summary values in the Climate panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 ## MONTE CARLO
-Folder: `MONTE_CARLO_Appendix_G/`
+Folder: [MONTE_CARLO_Appendix_G](MONTE_CARLO_Appendix_G)
 
 The Monte Carlo Study detailed in Appendix G includes a size experiment and three power experiments: Normal vs. Student-t(5) left-tail, Normal vs. Student-t(5) center and Laplace(-1,1) vs. Laplace(1,1.1). The power studies are supplemented with the analysis of the associated local divergences, for which we include separate folders per experiment. In total, this yields seven subdirectories for the reproduction of the figures in Appendix G, with titles indicating which figure is reproduced (e.g. *FIG_G1_Size* for the reproduction of Figure G.1). In each subfolder, a ReadMe.txt file is included with more specific instructions. The common structure of the subdirectories is to first calculate the desired scores (e.g. by running *01SizeMainCalc*) and then generate the plots by a different script (e.g. *02SizeMain_Plot.py*).
 
