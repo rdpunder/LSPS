@@ -16,6 +16,7 @@ Specific details per application are given below. The computation time of indivi
 Directory: `RISK_MANAGEMENT_Table_2_Appendix_I/`
 
 ### Data
+Start with: The data can be found in folder etc.
 Download the Realized Volatility measure via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`) for the period `All`. The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the subdirectory `01DensityForecasts/Data`. The S&P500 series (ticker: `SPY`) is downloaded from [Yahoo Finance](https://finance.yahoo.com/quote/SPY/) through the `yfinance` module by running the Python script `01DensityForecasts/Data/EmpiricalDataRiskMan.py`, which also transforms the prices into log returns and merges the S&P500 data with the deannualized realized measure.  
 
 ### Code
@@ -27,7 +28,9 @@ The code is organized in the three folders introduced above.
 3. Navigate to the directory `03MCS`. Running the R script `MCSTables_RiskMan.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subdirectory `MCSTables`. 
 
 ### Output
-Navigate to the directory `03MCS`. Run the script `MCSAnalysisRiskManagement.py`. The MCS results in the directory `MCSTables` will be translated into the table with MCS p-values in **Table I2** and the summary values in the Risk Management Panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
+* **Table 2** and **Table I1**, Risk Management Panel, run `03MCS/MCSAnalysisRiskManagement.py`.
+
+Navigate to the directory `03MCS`. Run the script `MCSAnalysisRiskManagement.py`. Running the script translates the MCS p-values in the directory `MCSTables` into the table with MCS p-values in **Table I2** and the summary values in the Risk Management Panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 ### Robustness Analysis
 The remaining files in the three folders contribute to the robustness analysis with respect to the choice of the test statistic and the length of the estimation window (*m*). For reproduction, follow:
