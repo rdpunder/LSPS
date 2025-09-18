@@ -172,7 +172,9 @@ The Monte Carlo Study detailed in Appendix G includes a size experiment and thre
     1. `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py`, which compute the standardized divergences (where the B version switches the order of the distributions compared to A) and save the resulting `.xlsx` files in the [OutputDataFrames](MONTE_CARLO_Appendix_G/FIG_G7_LocalDiv_LP_L_C20/OutputDataFrames) folder.
     2. `02DivergencesMain_Plot.py`, which generates the subfigures of **Figure G7** from the values in the `xlsx` files in the [OutputDataFrames](MONTE_CARLO_Appendix_G/FIG_G7_LocalDiv_LP_L_C20/OutputDataFrames) folder, and saves them as `.pdf` file in the [Figures](MONTE_CARLO_Appendix_G/FIG_G7_LocalDiv_LP_L_C20/Figures) folder.
 
-The files `ScoringRulesLocalDiv.py`, `WeightFunctionsMC.py`, `DivergencesPlots.py` and `DivergencesBasis.py` provide functions for the required scoring rules, plotting and other supporting functions, respectively. The scripts `S1_Divergences_A.sh` and `S1_Divergences_B.sh` are sample bash scripts for running `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G7.txt` summarizes details specific to the current folder. 
+  The files `ScoringRulesLocalDiv.py`, `WeightFunctionsMC.py`, `DivergencesPlots.py` and `DivergencesBasis.py` provide functions for the required scoring rules, plotting and other supporting functions, respectively. The scripts `S1_Divergences_A.sh` and `S1_Divergences_B.sh` are sample bash scripts for running `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G7.txt` summarizes details specific to the current folder. 
+
+### Output
 
 
 ## MITCHELL AND WEALE (EXAMPLE 6)
