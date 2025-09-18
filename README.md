@@ -37,7 +37,7 @@ The code is organized in the three folders introduced above.
 3. Navigate to the directory `03MCS`. Running the R script `MCSTables_RiskMan.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subdirectory `MCSTables`. 
 
 ### Output
-* **Table 2** and **Table I1**, Risk Management Panel, and  **Table I2** run `03MCS/MCSAnalysisRiskManagement.py`.
+* **Table 2** and **Table I1**, Risk Management Panel, and  **Table I2**, run `03MCS/MCSAnalysisRiskManagement.py`.
 
 Navigate to the directory `03MCS`. Run the script `MCSAnalysisRiskManagement.py`. Running the script translates the MCS p-values in the directory `MCSTables` into the table with MCS p-values in **Table I2** and the summary values in the Risk Management Panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
@@ -72,6 +72,8 @@ The code follows the same structure as above.
 3. Navigate to the directory `03MCS`. We use the same split as in step 2 per weight function. Running the R scripts `RiskManMCSBivariateIndProd.R` and `RiskManMCSBivariateLogProd3.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subdirectory `MCSTables`. 
 
 ### Output
+* **Table 2** and **Table I1**, Risk Management Panel,  **Table I4**, and **Table I5**, run `03MCS/MCSAnalysisRiskManagement.py`.
+
 Navigate to the directory `03MCS`. Run the scripts `MCSAnalysisRiskManIndProd.py` and `MCSAnalysisRiskManLogProd3.py`. The MCS results in the directory `MCSTables` will be translated into the table with MCS p-values in **Table I4** (for the weight function IndicatorProduct) and **Table I5** (for the weight function LogisticProduct) and the summary values in the Risk Management panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 
