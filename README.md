@@ -13,7 +13,7 @@ Specific details per application are given below. The computation time of indivi
 
 
 ## RISK MANAGEMENT
-Directory: `RISK_MANAGEMENT_Table_2_Appendix_I`
+Directory: [RISK_MANAGEMENT_Table_2_Appendix_I](RISK_MANAGEMENT_Table_2_Appendix_I)
 
 ### Data
 The data are stored in the folder [01DensityForecasts/Data](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data). This folder contains the file `SP500andRealVol1995Xiu.csv`, which includes the log returns and realized measures of the S&P500 (ticker: `SPY`).
@@ -21,7 +21,7 @@ The data are stored in the folder [01DensityForecasts/Data](RISK_MANAGEMENT_Tabl
 To reconstruct the data file, navigate to the folder [01DensityForecasts/Data/DataConstruction](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction). 
 Download the realized volatility measures via Dacheng Xiu's [Risk Lab](https://dachxiu.chicagobooth.edu/#risklab) by selecting trades of `SPDR S & P 500 E T F TRUST` (symbol=`SPY`, PN=`843398`). 
 The downloaded file contains two types: QMLE-Trades and QMLE-Quote, from which we select `QMLE-Trades`. 
-Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the folder [01DensityForecasts/Data/DataConstruction](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction). 
+Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the [DataConstruction](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction) folder. 
 The `SPY` series has been obtained from [Yahoo Finance](https://finance.yahoo.com/quote/XLE/) through the `yfinance` module. 
 The script `EmpiricalDatavRiskMan.py` located in the [DataConstruction](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction) folder, downloads the price series, transforms it into log returns, and merges it with the correponding deannualized realized measure. 
 The script produces the file `SP500andRealVol1995Xiu.csv`, which can then be copied to the [01DensityForecasts/Data](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data) folder.
