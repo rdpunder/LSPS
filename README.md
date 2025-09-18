@@ -38,6 +38,7 @@ The code is organized in the three folders introduced above.
 
 ### Output
 * **Table 2** and **Table I1**, Multivariate Risk Management Panel, and  **Table I2**, run `03MCS/MCSAnalysisRiskManagement.py`.
+* **Table I3**, run `03MCS/MCSAnalysisRiskManagement.py`, run `MCSAnalysisRiskManagementRobust_m750_Tmax5.py`, `MCSAnalysisRiskManagementRobust_m750_TR5.py`, `MCSAnalysisRiskManagementRobust_m1000_Tmax20.py`, `MCSAnalysisRiskManagementRobust_m1000_TR20.py`, and `MCSAnalysisRiskManagementRobust_m1250_Tmax5.py`, `MCSAnalysisRiskManagementRobust_m1250_TR5.py`
 
 Navigate to the directory `03MCS`. Run the script `MCSAnalysisRiskManagement.py`. Running the script translates the MCS p-values in the directory `MCSTables` into the table with MCS p-values in **Table I2** and the summary values in the Risk Management Panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
