@@ -41,7 +41,6 @@ The code is organized in the three folders introduced above.
 
 Navigate to the directory `03MCS`. Run the script `MCSAnalysisRiskManagement.py`. Running the script translates the MCS p-values in the directory `MCSTables` into the table with MCS p-values in **Table I2** and the summary values in the Risk Management Panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
-### Robustness Analysis
 The remaining files in the three folders contribute to the robustness analysis with respect to the choice of the test statistic and the length of the estimation window (*m*). For reproduction, follow:
 1. Redo step 1 for the alternative window lengths *m=750* and *m=1250* by running `01DensityForecasts/RiskManMainTest750.py` and `01DensityForecasts/RiskManMainTest1250.py` (e.g. by using the bash scripts `S1_RiskManScoresTest750.sh` and `S1_RiskManScoresTest1250.sh`, respectively).
 2. Redo step 2 for the alternative window lengths *m=750* and *m=1250* by running `02Scores/RiskManScoreCalcMainTest750.py` and `02Scores/RiskManScoreCalcMainTest1250.py` (e.g. by using the bash scripts `S1_RiskManScoresTest750.sh` and `S1_RiskManScoresTest1250.sh`, respectively).
