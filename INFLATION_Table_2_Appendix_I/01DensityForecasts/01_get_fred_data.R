@@ -14,8 +14,8 @@ start_date_min1 = as.Date("1959-12-01")
 #data_raw = fredmd("https://files.stlouisfed.org/files/htdocs/fred-md/monthly/current.csv",
 #                  transform = FALSE)
 
-data  <- fredmd("Data/2025-08-md.csv", date_start = start_date_min1, date_end = end_date)
-data_raw  <- fredmd("Data/2025-08-md.csv", date_start = start_date_min1, date_end = end_date, transform = FALSE)
+data  <- fredmd("Data/2025-01.csv", date_start = start_date_min1, date_end = end_date)
+data_raw  <- fredmd("Data/2025-01.csv", date_start = start_date_min1, date_end = end_date, transform = FALSE)
 
 varlist = fredmd_description
 vars = intersect(colnames(data),varlist$fred)
