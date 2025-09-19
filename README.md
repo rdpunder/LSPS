@@ -77,7 +77,7 @@ The code is organized in the following three folders:
 ### Output
 * **Table 2** and **Table I1**, last two weight functions of Sec. 4.1 panel,  **Table I4**, and **Table I5**, run  `MCSAnalysisRiskManIndProd.py` and `MCSAnalysisRiskManLogProd3.py`.
 
-Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisRiskManIndProd.py` and `MCSAnalysisRiskManLogProd3.py`. The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I4** (for the weight function IndicatorProduct) and **Table I5** (for the weight function LogisticProduct) and the summary values for the last two weight functions of Sec. 4.1 panel, in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
+Navigate to the folder [03MCS](02_MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS). Run the scripts `MCSAnalysisRiskManIndProd.py` and `MCSAnalysisRiskManLogProd3.py`. The MCS results in the folder [MCSTables](02_MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/MCSTables) will be translated into the table with MCS p-values in **Table I4** (for the weight function IndicatorProduct) and **Table I5** (for the weight function LogisticProduct) and the summary values for the last two weight functions of Sec. 4.1 panel, in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 
 ## INFLATION
