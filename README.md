@@ -4,7 +4,7 @@ This repository provides the data and code to reproduce all the empirical and Mo
 
 The repository contains six folders. Each of the four empirical applications: Risk Management, Multivariate Risk Management, Inflation, and Climate have their own folders. The other two folders contain the Monte Carlo study and the numerical calculation of Example 6.
 
-For every empirical application, the MCS p-values reported in Appendix I, underlying Table 2, are obtained by following three steps:
+For every empirical application, the MCS p-values reported in **Appendix I**, underlying **Table 2**, are obtained by following three steps:
 * **01DensityForecasts**: Preprocess the data and estimate parameters using application specific forecast methods to construct density forecasts.
 * **02Scores**: Compute the scores from each forecast method of step 1 under the scoring rules for which MCS p-values have to be calculated.
 * **03MCS**: Apply the MCS procedure, relying on the R package MCS by Bernardi and Catania (2018), to the scores from step 2 and calculate the percentages and ratios reported in Table 2. 
