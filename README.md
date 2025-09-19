@@ -198,10 +198,12 @@ In **Example 6** of Section 3.4, we provide a specific example for which the exp
 
 
 ## Other files
-- requirements.txt: required libraries and packages
-- ComputationTimePerFile.xlsx: Indicating computation time per file
-- LICENSE: MIT License.
-- README.md: This *README.md* file
+- `requirements.txt`: required Python libraries and packages (including dependencies installed on the computing cluster)
+- `requirementsLocal.txt`: required Python libraries and packages (excluding dependencies installed on the computing cluster)
+- `InstallPackages.R`: required R packages
+- `ComputationTimePerFile.xlsx`: Indicating computation time per file
+- `LICENSE`: MIT License.
+- `README.md`: This *README.md* file
 
 
 
