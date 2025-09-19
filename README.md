@@ -26,7 +26,7 @@ The `SPY` series has been obtained from [Yahoo Finance](https://finance.yahoo.co
 The script `EmpiricalDataRiskMan.py` located in the [DataConstruction](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction) folder, downloads the price series, transforms it into log returns, and merges it with the corresponding deannualized realized measure. 
 The script produces the file `SP500andRealVol1995Xiu.csv`, which can then be copied to the [01DensityForecasts/Data](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data) folder.
 For exact replication of results, we recommend using the provided file `SP500andRealVol1995Xiu.csv` in [01DensityForecasts/Data](RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data).
-Re-downloading the series may lead to small numerical differences (~10e-7) or any other differences related to future changes to the `yfinance` module. 
+Re-downloading the series may lead to small numerical differences (~10e-7) due to real time auto-adjustments for dividends and stock splits, or any other differences related to future changes to the `yfinance` module. 
 
 ### Code
 The code is organized in the following three folders:
@@ -61,7 +61,7 @@ The downloaded files contain two types: QMLE-Trades and QMLE-Quote, from which w
 Save the data as the `.csv` files `RVFullPeriodXLETrade.csv` and `RVFullPeriodXLFTrade.csv` in the folder [01DensityForecasts/Data/DataConstruction](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction). The series `XLE` and `XLF` have been obtained from [Yahoo Finance](https://finance.yahoo.com/quote/XLE/) through the `yfinance` module. 
 The script `EmpiricalDataMultivariateRiskMan.py` located in the [DataConstruction](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction) folder, downloads the price series, transforms them into log returns, and merges them with the corresponding deannualized realized measures. The script produces the files `XLEandRealVolXiu.csv` and `XLFandRealVolXiu.csv`, which can then be copied to the [01DensityForecasts/Data](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data) folder. 
 For exact replication of results, we recommend using the provided files in [01DensityForecasts/Data](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data). 
-Re-downloading the series may lead to small numerical differences (~10e-7) or any other differences related to future changes to the `yfinance` module. 
+Re-downloading the series may lead to small numerical differences (~10e-7) due to real time auto-adjustments for dividends and stock splits, or any other differences related to future changes to the `yfinance` module. 
 
 ### Code
 The code is organized in the following three folders:
