@@ -37,10 +37,10 @@ The code is organized in the three folders introduced above.
 3. Navigate to the folder `03MCS`. Running the R script `MCSTables_RiskMan.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
 
 ### Output
-* **Table 2** and **Table I1**, Multivariate Risk Management Panel, and  **Table I2**, run `03MCS/MCSAnalysisRiskManagement.py`.
+* **Table 2** and **Table I1**, first weight function of Sec. 4.1 panel, and  **Table I2**, run `03MCS/MCSAnalysisRiskManagement.py`.
 * **Table I3**, run `03MCS/MCSAnalysisRiskManagement.py`, run `03MCS/MCSAnalysisRiskManagementRobust_m750_Tmax5.py`, `03MCS/MCSAnalysisRiskManagementRobust_m750_TR5.py`, `03MCS/MCSAnalysisRiskManagementRobust_m1000_Tmax20.py`, `03MCS/MCSAnalysisRiskManagementRobust_m1000_TR20.py`, and `03MCS/MCSAnalysisRiskManagementRobust_m1250_Tmax5.py`, `03MCS/MCSAnalysisRiskManagementRobust_m1250_TR5.py`
 
-Navigate to the folder `03MCS`. Run the script `MCSAnalysisRiskManagement.py`. Running the script translates the MCS p-values in the folder `MCSTables` into the table with MCS p-values in **Table I2** and the summary values in the Risk Management Panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
+Navigate to the folder `03MCS`. Run the script `MCSAnalysisRiskManagement.py`. Running the script translates the MCS p-values in the folder `MCSTables` into the table with MCS p-values in **Table I2** and the summary values for the last first weight function of the Sec. 4.1 panel, in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 The remaining files in the three folders contribute to the robustness analysis with respect to the choice of the test statistic and the length of the estimation window (*m*). For reproduction, follow:
 1. Redo step 1 for the alternative window lengths *m=750* and *m=1250* by running `01DensityForecasts/RiskManMainTest750.py` and `01DensityForecasts/RiskManMainTest1250.py` (e.g. by using the bash scripts `S1_RiskManScoresTest750.sh` and `S1_RiskManScoresTest1250.sh`, respectively).
@@ -72,9 +72,9 @@ The code follows the same structure as above.
 3. Navigate to the folder `03MCS`. We use the same split as in step 2 per weight function. Running the R scripts `RiskManMCSBivariateIndProd.R` and `RiskManMCSBivariateLogProd3.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
 
 ### Output
-* **Table 2** and **Table I1**, Risk Management Panel,  **Table I4**, and **Table I5**, run `03MCS/MCSAnalysisRiskManagement.py`.
+* **Table 2** and **Table I1**, last two weight functions of Sec. 4.1 panel,  **Table I4**, and **Table I5**, run `03MCS/MCSAnalysisRiskManagement.py`.
 
-Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisRiskManIndProd.py` and `MCSAnalysisRiskManLogProd3.py`. The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I4** (for the weight function IndicatorProduct) and **Table I5** (for the weight function LogisticProduct) and the summary values in the Risk Management panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
+Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisRiskManIndProd.py` and `MCSAnalysisRiskManLogProd3.py`. The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I4** (for the weight function IndicatorProduct) and **Table I5** (for the weight function LogisticProduct) and the summary values for the last two weight functions of Sec. 4.1 panel, in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 
 ## INFLATION
@@ -105,7 +105,9 @@ After completion, the folders `Data` and `mParamsDF` should be manually copied t
 3. Navigate to the folder `03MCS`. Running the R scripts `MCSAnalysisInflationCenter.py` and `MCSTables_InflationTails.R` produces the MCS p-values for the tails and center indicator weight function based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
 
 ### Output
-Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisInflationCenter.py` and `MCSAnalysisInflationTails.py` . The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I6** (for the center indicator weight function) and **Table I7** (for the tails indicator weight function) and the summary values in the Inflation panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
+* **Table 2** and **Table I1**, Sec. 4.2 panel,  **Table I6**, and **Table I7**, run `03MCS/MCSAnalysisInflationCenter.py` and `03MCS/MCSAnalysisInflationTails.py`.
+  
+Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisInflationCenter.py` and `MCSAnalysisInflationTails.py` . The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I6** (for the center indicator weight function) and **Table I7** (for the tails indicator weight function) and the summary values in the Sec. 4.2 panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 ## CLIMATE
 Folder: `CLIMATE_Table_2_Appendix_I`
@@ -122,7 +124,9 @@ The code is organized in the three folders introduced above.
 3. Navigate to the folder `03MCS`. Running the R scripts `MCSTables_ClimateTails.R` and `MCSTables_ClimateCenter.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
 
 ### Output
-Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisClimate_Tails.py` and `MCSAnalysisClimate_Center.py`. The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I8** (for the right tail indicator weight function) and **Table I9** (for the center indicator weight function) and the summary values in the Climate panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
+* **Table 2** and **Table I1**, Sec. 4.3 panel,  **Table I6**, and **Table I7**, run `03MCS/MCSAnalysisClimate_Tails.py` and `03MCS/MCSAnalysisClimate_Center.py`.
+* 
+Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisClimate_Tails.py` and `MCSAnalysisClimate_Center.py`. The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I8** (for the right tail indicator weight function) and **Table I9** (for the center indicator weight function) and the summary values in the Sec. 4.3 panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 ## MONTE CARLO
 Folder: [MONTE_CARLO_Appendix_G](MONTE_CARLO_Appendix_G)
