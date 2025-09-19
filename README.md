@@ -12,8 +12,8 @@ For every empirical application, the MCS p-values reported in Appendix I, underl
 Specific details per application are given below. The computation time of individual files can be found in  `ComputationTimePerFile.xlsx`. 
 
 **Dependencies**: Code is written in Python unless we build on existing R code.
-* Install Python dependencies with: `pip install -r requirements.txt` (also freezing the dependencies on the computing cluster) or `pip install -r requirementsLocal.txt` (only freezing local dependencies)
-* Install R dependencies by running `InstallPackages.R`
+* Install Python dependencies with `pip install -r requirements.txt` (also freezing the dependencies on the computing cluster) or `pip install -r requirementsLocal.txt` (only freezing local dependencies).
+* Install R dependencies by running `InstallPackages.R`.
 
 ## RISK MANAGEMENT
 Folder: [01_RISK_MANAGEMENT_Table_2_Appendix_I](01_RISK_MANAGEMENT_Table_2_Appendix_I)
