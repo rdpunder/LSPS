@@ -95,7 +95,7 @@ The code is organized in the following three folders:
     * LASSO: `03D_call_model_lasso.R`
     * Random Forest: `03E_call_model_rf.R`
     * Random Walk: `03F_call_model_rw.R`
-The individual scripts rely on the supporting functions in the files `Functions/functions.R` and `Functions/rolling_window_tpnorm.R`, calculate the (parameters of) the density forecasts based on the associated observations in the [Data](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/Data) folder and save them as both `.rda` and `.npy` files in the [mParamsDF](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/mParamsDF) folder.
+The individual scripts rely on the supporting functions in the files `Functions/functions.R` and `Functions/rolling_window_tpnorm.R`, which calculate the (parameters of) the density forecasts based on the associated observations in the [Data](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/Data) folder and save them as both `.rda` and `.npy` files in the [mParamsDF](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/mParamsDF) folder.
 After completion, the folders [Data](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/Data) and [mParamsDF](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/mParamsDF) should be manually copied to `02Scores`.
 
 2.[02Scores](03_INFLATION_Table_2_Appendix_I/02Scores): We have divided the computation tasks per horizon (*h=6* and *h=24*) and weight function (tails (*T*) and center (*C*)), corresponding to the main scripts
