@@ -116,7 +116,7 @@ Navigate to the folder [03MCS](03_INFLATION_Table_2_Appendix_I/03MCS). Run the s
 Folder: [04_CLIMATE_Table_2_Appendix_I](04_CLIMATE_Table_2_Appendix_I)
 
 ### Data
-The temperature data are downloaded as a `.txt` file directly from [KNMI - Daily Weather Data De Bilt](https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_260.zip), starting on January 1, 1901, and updated regularly. From this file we extract the columns `YYYYMMDD` (=Date), `TG` (=TempAvg, average temperature), `TN` (=TempMin, minimum temperature), `TX` (=TempMax, maximum temperature), and save them to Excel, resulting in `01DensityForecasts/ClimateKNMI_Temp.xlsx`. In `01DensityForecasts/ClimateMain.py` we divide the raw values by ten to convert them to degrees Celsius, and select the required sample period (sStart =`2003-02-01`, sEnd = `2023-01-31`).
+The temperature data are downloaded as a `.txt` file directly from [KNMI - Daily Weather Data De Bilt](https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_260.zip), starting on January 1, 1901, and updated regularly. From this file we extract the columns `YYYYMMDD` (=Date), `TG` (=TempAvg, average temperature), `TN` (=TempMin, minimum temperature), `TX` (=TempMax, maximum temperature), and save them as `xlsx` file, resulting in `01DensityForecasts/ClimateKNMI_Temp.xlsx`. In `01DensityForecasts/ClimateMain.py` we divide the raw values by ten to convert them to degrees Celsius, and select the required sample period (sStart =`2003-02-01`, sEnd = `2023-01-31`).
 
 ### Code
 The code is organized in the following three folders:
