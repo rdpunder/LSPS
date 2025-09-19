@@ -143,7 +143,7 @@ The data are simulated under different DGPs:
 By running the `Calc` scripts under Code below, data are temporarily saved in the empty folder `mDataAndWeights`.
 
 ### Code
-The Monte Carlo Study detailed in Appendix G includes a size experiment and three power experiments: Normal vs. Student-t(5) left-tail, Normal vs. Student-t(5) center and Laplace(-1,1) vs. Laplace(1,1.1). The power studies are supplemented with the analysis of the associated standardized local divergences, for which we include separate folders per experiment. In total, this yields seven subdirectories for the reproduction of the figures in Appendix G, with titles indicating which figure is reproduced (e.g. *FIG_G1_Size* for the reproduction of Figure G.1). 
+The Monte Carlo Study detailed in Appendix G includes a size experiment and three power experiments: Normal vs. Student-t(5) left-tail, Normal vs. Student-t(5) center and Laplace(-1,1) vs. Laplace(1,1.1). The power studies are supplemented with the analysis of the associated standardized local divergences, for which we include separate folders per experiment. In total, this yields seven subdirectories for the reproduction of the figures in *Appendix G*, with titles indicating which figure is reproduced (e.g. *FIG_G1_Size* for the reproduction of **Figure G.1**). 
 
 * [FIG_G1_Size](05_MONTE_CARLO_Appendix_G/FIG_G1_Size): Size experiment. For reproduction, run
     1. `01SizeMain_Calc.py`, which computes the DM test statistics and saves them as `.npy` file in the [mDMCalc](05_MONTE_CARLO_Appendix_G/FIG_G1_Size/mDMCalc) folder.
