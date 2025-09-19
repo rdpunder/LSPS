@@ -69,7 +69,7 @@ The code is organized in the following three folders:
 
 2. [02Scores](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/02Scores): Separate main scripts for the indicator product and logistic product weight function are included as `RiskManMainMVIndProd.py` and `RiskManMainMVLogProd3.py`, respectively, with example bash scripts `S6_RiskManScoresMVIndProd.sh` and `S6_RiskManScoresMVLogProd3.sh`. The main scripts depend on the functions in `RiskManBasisMV.py`, `BivariateT.py`, `ScoringRulesMV.py` and `WeightfunctionsMV.py`, including fundamental supporting functions, a custom function for the bivariate t distribution, scoring rules and weight functions, respectively. Execution of the main scripts, e.g. using the sample bash script `S1_RiskManScores.sh`, produces the scores of the density forecasts built on the parameters in [mParamsDF](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/mParamsDF) and the associated observations in the [Data](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/Data) and saves them as `.npy` files into the folder [mScores](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/mScores), which should be manually copied to [03MCS](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS) upon completion.
  
-3. [03MCS](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS): We use the same split as in step 2 per weight function. Running the R scripts `RiskManMCSBivariateIndProd.R` and `RiskManMCSBivariateLogProd3.R` produces the MCS p-values based on the scores in [mScores](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/mScores) and saves them as `.xlsx` files in the subfolder [MCSTables](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/MCSTables). 
+3. [03MCS](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS): We use the same split as in step 2 per weight function. Running the R scripts `RiskManMCSBivariateIndProd.R` and `RiskManMCSBivariateLogProd3.R` produces the MCS p-values based on the scores in [mScores](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/mScores) and saves them as `.xlsx` files in the folder [MCSTables](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/MCSTables). 
 
 ### Output
 * **Table 2** and **Table I1**, last two weight functions of Sec. 4.1 panel,  **Table I4**, and **Table I5**, run `03MCS/MCSAnalysisRiskManagement.py`.
@@ -189,9 +189,9 @@ The Monte Carlo Study detailed in Appendix G includes a size experiment and thre
 * **Figure G7**, run `FIG_G7_LocalDiv_LP_L_C20/02DivergencesMain_Plot.py`.
 
 ## MITCHELL AND WEALE (EXAMPLE 6)
-Folder: `MITCHELL_AND_WEALE_Example_6`
+Folder: [MITCHELL_AND_WEALE_Example_6](MITCHELL_AND_WEALE_Example_6)
 
-In **Example 6** of Section 3.4, we provide a specific example for which the expected score difference based on the weighted scoring rule by Mitchell and Weale (2023) is negative for *α>α_0*. The aim of the current folder is to reproduce the (rounded) number *α_0 = 0.052* and to graphically verify the inequality *α>α_0*. Run `Example6.py`. The script generates a figure of the expected score differences, saved in the `Figures` subfolder, and prints the alpha-root of the expected score differences.
+In **Example 6** of Section 3.4, we provide a specific example for which the expected score difference based on the weighted scoring rule by Mitchell and Weale (2023) is negative for *α>α_0*. The aim of the current folder is to reproduce the (rounded) number *α_0 = 0.052* and to graphically verify the inequality *α>α_0*. Run `Example6.py`. The script generates a figure of the expected score differences, saved in the [MITCHELL_AND_WEALE_Example_6](MITCHELL_AND_WEALE_Example_6/Figures) folder, and prints the alpha-root of the expected score differences.
 
 
 ## Other files
