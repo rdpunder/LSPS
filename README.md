@@ -64,12 +64,12 @@ For exact replication of results, we recommend using the provided files in [01De
 Re-downloading the series may lead to small numerical differences (~10e-7) or any other differences related to future changes of the `yfinance` module. 
 
 ### Code
-The code follows the same structure as above.
-1. Navigate to the folder `01DensityForecasts`. The main script is `RiskManMainMV.py`, for which a sample bash script `S1_RiskManBivariate.sh` is provided to facilitate parallel computation. The main script relies on `RiskManBasisMV.py`, which implements fundamental routines including the rolling window estimation procedure, and on `DCCmodel.py` together with `TGARCHmodel.py` and `BivariateT.py`, which implement the individual forecast methods. Running `RiskManMainMV.py` generates parameter estimates of the density forecasts based on the observations in the `Data` folder and stores them as `.npy` files in the `mParamsDF` subfolder. After completion, the folders `Data` and `mParamsDF` should be manually copied to `02Scores`.
+The code is organized in the following three folders:
+1. [01DensityForecasts](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts): The main script is `RiskManMainMV.py`, for which a sample bash script `S1_RiskManBivariate.sh` is provided to facilitate parallel computation. The main script relies on `RiskManBasisMV.py`, which implements fundamental routines including the rolling window estimation procedure, and on `DCCmodel.py` together with `TGARCHmodel.py` and `BivariateT.py`, which implement the individual forecast methods. Running `RiskManMainMV.py` generates parameter estimates of the density forecasts based on the observations in the `Data` folder and stores them as `.npy` files in the `mParamsDF` subfolder. After completion, the folders `Data` and `mParamsDF` should be manually copied to `02Scores`.
 
-2. Navigate to the folder `02Scores`. Separate main scripts for the indicator product and logistic product weight function are included as `RiskManMainMVIndProd.py` and `RiskManMainMVLogProd3.py`, respectively, with example bash scripts `S6_RiskManScoresMVIndProd.sh` and `S6_RiskManScoresMVLogProd3.sh`. The main scripts depend on the functions in `RiskManBasisMV.py`, `BivariateT.py`, `ScoringRulesMV.py` and `WeightfunctionsMV.py`, including fundamental supporting functions, a custom function for the bivariate t distribution, scoring rules and weight functions, respectively. Execution of the main scripts, e.g. using the sample bash script `S1_RiskManScores.sh`, produces the scores of the density forecasts built on the parameters in `mParamsDF` and the associated observations in `Data` and saves them as `.npy` files into the folder `mScores`, which should be manually copied to `03MCS` upon completion.
+2. [02Scores](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/02Scores): Separate main scripts for the indicator product and logistic product weight function are included as `RiskManMainMVIndProd.py` and `RiskManMainMVLogProd3.py`, respectively, with example bash scripts `S6_RiskManScoresMVIndProd.sh` and `S6_RiskManScoresMVLogProd3.sh`. The main scripts depend on the functions in `RiskManBasisMV.py`, `BivariateT.py`, `ScoringRulesMV.py` and `WeightfunctionsMV.py`, including fundamental supporting functions, a custom function for the bivariate t distribution, scoring rules and weight functions, respectively. Execution of the main scripts, e.g. using the sample bash script `S1_RiskManScores.sh`, produces the scores of the density forecasts built on the parameters in `mParamsDF` and the associated observations in `Data` and saves them as `.npy` files into the folder `mScores`, which should be manually copied to `03MCS` upon completion.
  
-3. Navigate to the folder `03MCS`. We use the same split as in step 2 per weight function. Running the R scripts `RiskManMCSBivariateIndProd.R` and `RiskManMCSBivariateLogProd3.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
+3. [03MCS](MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS) We use the same split as in step 2 per weight function. Running the R scripts `RiskManMCSBivariateIndProd.R` and `RiskManMCSBivariateLogProd3.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
 
 ### Output
 * **Table 2** and **Table I1**, last two weight functions of Sec. 4.1 panel,  **Table I4**, and **Table I5**, run `03MCS/MCSAnalysisRiskManagement.py`.
@@ -78,14 +78,14 @@ Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisRiskManIndProd.py` a
 
 
 ## INFLATION
-Folder: `INFLATION_Table_2_Appendix_I`
+Folder: [INFLATION_Table_2_Appendix_I](INFLATION_Table_2_Appendix_I)
 
 ### Data
 For the data construction, we adopt the procedure of Medeiros et al. (2021), made available through the GitHub repository [gabrielrvsc/ForecastingInflation](https://github.com/gabrielrvsc/ForecastingInflation/tree/main).  Download hte monthly vintage `2025-01.csv` of the FRED-MD monthly data via the [McCracken Database](https://www.stlouisfed.org/research/economists/mccracken/fred-databases). Run the R script `01_get_fred_data.R` to convert the raw file into `data.rda`, which will be stored in the `01DensityForecasts/Data` folder. Subsequently run the R script `01_data_acc.R` to construct the accumulated inflation based on `CPIAUCSL` for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` folder as both `mYAcc.Rdata` and `mYAcc.npy` files. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAccOut.Rdata` and `mYAccOut.npy`. 
 
 ### Code
-The code is organized in the three folders introduced above.
-1. Navigate to the folder `01DensityForecasts`. The construction of the mean of the density forecasts also strongly relies on Medeiros et al. (2021), hence each individual forecast method now has its own R script:
+The code is organized in the following three folders:
+1. [01DensityForecasts](INFLATION_Table_2_Appendix_I/01DensityForecasts): The construction of the mean of the density forecasts also strongly relies on Medeiros et al. (2021), hence each individual forecast method now has its own R script:
     * AR model: `03A_call_model_ar.R`
     * Bagging: `03B_call_model_bagging`
     * Complete Subset Regression: `03C_call_model_csr.R`
@@ -95,14 +95,14 @@ The code is organized in the three folders introduced above.
 The individual scripts rely on the supporting functions in the files `Functions/functions.R` and `rolling_window_tpnorm.R`, calculate the (parameters of) the density forecasts and save them as both `.rda` and `.npy` files in the `mParamsDF` folder.
 After completion, the folders `Data` and `mParamsDF` should be manually copied to `02Scores`.
 
-2. Navigate to the folder `02Scores`. We have divided the computation tasks per horizon (*h=6* and *h=24*) and weight function (tails (*T*) and center (*C*)), corresponding to the main scripts
+2.[INFLATION_Table_2_Appendix_I](INFLATION_Table_2_Appendix_I/02Scores): We have divided the computation tasks per horizon (*h=6* and *h=24*) and weight function (tails (*T*) and center (*C*)), corresponding to the main scripts
     * `InflationScoreCalcMain_T_h6.py` (`S1_InflationScores_T_h6.sh`)
     * `InflationScoreCalcMain_T_h24.py` (`S1_InflationScores_T_h24.sh`)
     * `InflationScoreCalcMain_C_h6.py` (`S1_InflationScores_C_h6.sh`)
     * `InflationScoreCalcMain_C_h24.py` (`S1_InflationScores_C_h24.sh`)
    with respective example bash scripts in between brackets. The main scripts depend on the functions in `ScoreBasisInflation.py`, `ScoringRules.py` and `Weightfunctions.py`, including fundamental supporting functions, scoring rules and weight functions, respectively. Execution of a main script produces the scores of the density forecasts built on the parameters in `mParamsDF` and the associated observations in `Data` and saves them as `.npy` files into the folder `mScores`, which should be manually copied to `03MCS` upon completion.
  
-3. Navigate to the folder `03MCS`. Running the R scripts `MCSAnalysisInflationCenter.py` and `MCSTables_InflationTails.R` produces the MCS p-values for the tails and center indicator weight function based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
+3. [INFLATION_Table_2_Appendix_I](INFLATION_Table_2_Appendix_I/03MCS): Running the R scripts `MCSTables_InflationCenter.R` and `MCSTables_InflationTails.R` produces the MCS p-values for the tails and center indicator weight function based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
 
 ### Output
 * **Table 2** and **Table I1**, Sec. 4.2 panel,  **Table I6**, and **Table I7**, run `03MCS/MCSAnalysisInflationCenter.py` and `03MCS/MCSAnalysisInflationTails.py`.
@@ -110,22 +110,22 @@ After completion, the folders `Data` and `mParamsDF` should be manually copied t
 Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisInflationCenter.py` and `MCSAnalysisInflationTails.py` . The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I6** (for the center indicator weight function) and **Table I7** (for the tails indicator weight function) and the summary values in the Sec. 4.2 panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 ## CLIMATE
-Folder: `CLIMATE_Table_2_Appendix_I`
+Folder: [CLIMATE_Table_2_Appendix_I](CLIMATE_Table_2_Appendix_I)
 
 ### Data
 The temperature data is downloaded as a `.txt` file directly from [KNMI - Daily Weather Data De Bilt](https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_260.zip), starting on January 1, 1901, and updated regularly. From this file we extract the columns `YYYYMMDD` (=Date), `TG` (=TempAvg, average temperature), `TN` (=TempMin, minimum temperature), `TX` (=TempMax, maximum temperature), and save them to Excel, resulting in `01DensityForecasts/ClimateKNMI_Temp.xlsx`. In `01DensityForecasts/ClimateMain.py` we divide the raw values by ten to convert them to degrees Celsius, and select the required sample period (sStart =`2003-02-01`, sEnd = `2023-01-31`).
 
 ### Code
-The code is organized in the three folders introduced above.
-1. Navigate to the folder `01DensityForecasts`. The main script is `ClimateMain.py`, for which a sample bash script `S1_ClimateMain.sh` is provided to facilitate parallel computation. The main script depends on `ClimateBasis.py`, which implements fundamental routines including the rolling window estimation procedure. For the individual forecast methods, we have split the functions into three files labeled `ClimateLocMeanSinGARCH.py`, `ClimateLocMeanSinGARCHI.py` and `ClimateLocMeanSinGARCHII.py` for the different variance updating equations. Executing `ClimateMain.py` produces the parameter estimates of the density forecasts based on the observations in the `ClimateKNMI_Temp.xlsx` file and stores them as `.npy` files in the `mParamsDF` subfolder. It additionally saves the out-of-sample observations in separate `.npy` files. After completion, the folder `mParamsDF` should be manually copied to `02Scores`.
+The code is organized in the following three folders:
+1.[01DensityForecasts](CLIMATE_Table_2_Appendix_I/01DensityForecasts): The main script is `ClimateMain.py`, for which a sample bash script `S1_ClimateMain.sh` is provided to facilitate parallel computation. The main script depends on `ClimateBasis.py`, which implements fundamental routines including the rolling window estimation procedure. For the individual forecast methods, we have split the functions into three files labeled `ClimateLocMeanSinGARCH.py`, `ClimateLocMeanSinGARCHI.py` and `ClimateLocMeanSinGARCHII.py` for the different variance updating equations. Executing `ClimateMain.py` produces the parameter estimates of the density forecasts based on the observations in the `ClimateKNMI_Temp.xlsx` file and stores them as `.npy` files in the `mParamsDF` subfolder. It additionally saves the out-of-sample observations in separate `.npy` files. After completion, the folder `mParamsDF` should be manually copied to `02Scores`.
 
-2. Navigate to the folder `02Scores`. Separate main scripts for the right tail (*R*) and center (*C*) indicator weight function are included as `ClimateScoreCalcMain_R.py` and `ClimateScoreCalcMain_C.py`, respectively, with example bash scripts `S1_ClimateScores_C.sh` and `S1_ClimateScores_R.sh`. The main scripts depend on the functions in `ScoreBasis.py`, `ScoringRules.py` and `Weightfunctions.py`, including fundamental supporting functions, scoring rules and weight functions, respectively. Execution of the main scripts produces the scores of the density forecasts built on the parameters and out-of-sample observations in `mParamsDF` and saves them as `.npy` files into the folder `mScores`, which should be manually copied to `03MCS` upon completion.
+2. [02Scores](CLIMATE_Table_2_Appendix_I/02Scores): Separate main scripts for the right tail (*R*) and center (*C*) indicator weight function are included as `ClimateScoreCalcMain_R.py` and `ClimateScoreCalcMain_C.py`, respectively, with example bash scripts `S1_ClimateScores_C.sh` and `S1_ClimateScores_R.sh`. The main scripts depend on the functions in `ScoreBasis.py`, `ScoringRules.py` and `Weightfunctions.py`, including fundamental supporting functions, scoring rules and weight functions, respectively. Execution of the main scripts produces the scores of the density forecasts built on the parameters and out-of-sample observations in `mParamsDF` and saves them as `.npy` files into the folder `mScores`, which should be manually copied to `03MCS` upon completion.
  
-3. Navigate to the folder `03MCS`. Running the R scripts `MCSTables_ClimateTails.R` and `MCSTables_ClimateCenter.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
+3. [03MCS](CLIMATE_Table_2_Appendix_I/03MCS): Running the R scripts `MCSTables_ClimateTails.R` and `MCSTables_ClimateCenter.R` produces the MCS p-values based on the scores in `mScores` and saves them as `.xlsx` files in the subfolder `MCSTables`. 
 
 ### Output
 * **Table 2** and **Table I1**, Sec. 4.3 panel,  **Table I6**, and **Table I7**, run `03MCS/MCSAnalysisClimate_Tails.py` and `03MCS/MCSAnalysisClimate_Center.py`.
-* 
+  
 Navigate to the folder `03MCS`. Run the scripts `MCSAnalysisClimate_Tails.py` and `MCSAnalysisClimate_Center.py`. The MCS results in the folder `MCSTables` will be translated into the table with MCS p-values in **Table I8** (for the right tail indicator weight function) and **Table I9** (for the center indicator weight function) and the summary values in the Sec. 4.3 panel in **Table 2** for MCS confidence level 0.90 and **Table I1** for MCS confidence level 0.75.
 
 ## MONTE CARLO
