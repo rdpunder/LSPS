@@ -176,13 +176,13 @@ The Monte Carlo Study detailed in Appendix G includes a size experiment and thre
   The files `ScoringRulesLocalDiv.py`, `WeightFunctionsMC.py`, `DivergencesPlots.py` and `DivergencesBasis.py` provide functions for the required scoring rules, plotting and other supporting functions, respectively. The scripts `S1_Divergences_A.sh` and `S1_Divergences_B.sh` are sample bash scripts for running `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G7.txt` summarizes details specific to the current folder. 
 
 ### Output
-1. **Figure G1**, run `FIG_G1_Size/02SizeMain_Plot.py`.
-2. **Figure G2**, run `FIG_G2_RejRates_NS5_L_C20/02PowerMain_NS5_L_C20_Plot.py`.
-3. **Figure G3**, run `FIG_G3_LocalDiv_NS5_L_C20/02DivergencesMain_Plot.py`.
-4. **Figure G4**, run `FIG_G4_RejRates_NS5_C_C200:/02PowerMain_NS5_C_C200_Plot.py`.
-5. **Figure G5**, run `FIG_G5_LocalDiv_NS5_C_C200/02DivergencesMain_Plot.py`.
-6. **Figure G6**, run `FIG_G6_RejRates_LP_L_C20/02PowerMain_LP_L_C20_Plot.py`.
-7. **Figure G7**, run `FIG_G7_LocalDiv_LP_L_C20/02DivergencesMain_Plot.py`.
+* **Figure G1**, run `FIG_G1_Size/02SizeMain_Plot.py`.
+* **Figure G2**, run `FIG_G2_RejRates_NS5_L_C20/02PowerMain_NS5_L_C20_Plot.py`.
+* **Figure G3**, run `FIG_G3_LocalDiv_NS5_L_C20/02DivergencesMain_Plot.py`.
+* **Figure G4**, run `FIG_G4_RejRates_NS5_C_C200:/02PowerMain_NS5_C_C200_Plot.py`.
+* **Figure G5**, run `FIG_G5_LocalDiv_NS5_C_C200/02DivergencesMain_Plot.py`.
+* **Figure G6**, run `FIG_G6_RejRates_LP_L_C20/02PowerMain_LP_L_C20_Plot.py`.
+* **Figure G7**, run `FIG_G7_LocalDiv_LP_L_C20/02DivergencesMain_Plot.py`.
 
 ## MITCHELL AND WEALE (EXAMPLE 6)
 Folder: `MITCHELL_AND_WEALE_Example_6`
