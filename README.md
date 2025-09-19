@@ -137,7 +137,7 @@ Folder: [05_MONTE_CARLO_Appendix_G](05_MONTE_CARLO_Appendix_G)
 ### Data
 The data are simulated under different DGPs:
 * Normal(-0.2,1) and Normal(0.2,1) in the size experiment.
-* Normal(0,1) and Student-t(5) in the first two power experiments (**Figure G.2** and **G4**).
+* Normal(0,1) and Student-t(5) in the first two power experiments (**Figure G.2** and **G.4**).
 * Laplace(-1,1) and Laplace(1,1.1) in the final power experiment (**Figure G.6**).
 
 By running the `Calc` scripts under Code below, data are temporarily saved in the empty folder `mDataAndWeights`.
