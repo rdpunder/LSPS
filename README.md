@@ -130,8 +130,8 @@ Folder: [MONTE_CARLO_Appendix_G](MONTE_CARLO_Appendix_G)
 ### Data
 The data is simulated under different DGPs:
 * Normal(-0.2,1) and Normal(0.2,1) in the size experiment.
-* Normal(0,1) and Student-t(5) in the first two power experiments (Figures G2 and G4).
-* Laplace(-1,1) and Laplace(1,1.1) in the final power experiment (Figure G6).
+* Normal(0,1) and Student-t(5) in the first two power experiments (**Figure G2** and **G4**).
+* Laplace(-1,1) and Laplace(1,1.1) in the final power experiment (**Figure G6**).
 
 By running the `Calc` scripts under Code below, data is temporarily saved in the empty folder `mDataAndWeights`.
 
@@ -140,25 +140,25 @@ The Monte Carlo Study detailed in Appendix G includes a size experiment and thre
 
 * [FIG_G1_Size](MONTE_CARLO_Appendix_G/FIG_G1_Size): Size experiment. For reproduction, run
     1. `01SizeMain_Calc.py`, which computes the DM test statistics and saves them as `.npy` file in the [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G1_Size/mDMCalc) folder.
-    2. `02SizeMain_Plot.py`, which calculates the rejection rates from the DM test statistics in [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G1_Size/mDMCalc), generates **Figure G1**, and saves it as `.pdf` file in the [Figures](MONTE_CARLO_Appendix_G/MONTE_CARLO_Appendix_G/FIG_G1_Size) folder.
+    2. `02SizeMain_Plot.py`, which calculates the rejection rates from the DM test statistics in [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G1_Size/mDMCalc), generates **Figure G1**, and saves it as `.pdf` file in the [Figures](MONTE_CARLO_Appendix_G/FIG_G1_Size/Figures) folder.
    
-  The files `ScoringRulesMC.py`, `WeightFunctionsMC.py`, `SizePlots.py` and `SizeBasis.py` provide functions for the required scoring rules, weight functions, plotting and other supporting functions, respectively. The script `S1_SizeMain.sh` is a sample bash script for running `01SizeMain_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G2.txt` summarizes details specific to the current folder. 
+  The files `ScoringRulesMC.py`, `WeightFunctionsMC.py`, `SizePlots.py` and `SizeBasis.py` provide functions for the required scoring rules, weight functions, plotting and other supporting functions, respectively. The script `S1_SizeMain.sh` is a sample bash script for running `01SizeMain_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G1.txt` summarizes details specific to the current folder. 
 * [FIG_G2_RejRates_NS5_L_C20](MONTE_CARLO_Appendix_G/FIG_G2_RejRates_NS5_L_C20): Rejection rates for power study Normal(0,1) versus Student-t(5) where the region of interest is the left-tail, with *c=20* tail observations. For reproduction, run
     1. `01PowerMain_NS5_L_C20_Calc.py`, which computes the DM test statistics and saves them as `.npy` file in the [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G2_RejRates_NS5_L_C20/mDMCalc) folder.
     2. `02PowerMain_NS5_L_C20_Plot.py`, which calculates the rejection rates from the DM test statistics in [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G2_RejRates_NS5_L_C20/mDMCalc), generates the subfigures of **Figure G2**, and saves them as `.pdf` files in the [Figures](MONTE_CARLO_Appendix_G/FIG_G2_RejRates_NS5_L_C20/Figures) folder.
    
   The files `ScoringRulesMC.py`, `WeightFunctionsMC.py`, `PowerPlots.py` and `PowerBasis.py` provide functions for the required scoring rules, weight functions, plotting and other supporting functions, respectively. The script `S2_PowerMain_NS5_L_C20.sh` is a sample bash script for running `01PowerMain_NS5_L_C20_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G2.txt` summarizes details specific to the current folder.  
 * [FIG_G3_LocalDiv_NS5_L_C20](MONTE_CARLO_Appendix_G/FIG_G3_LocalDiv_NS5_L_C20): Standardized local divergences for Normal(0,1) versus Student-t(5) where the region of interest is the left-tail. For reproduction, run
-    1. `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py`, which compute the standardized divergences (where the B version switches the order of the distributions compared to A) and save the resulting `.xlsx` files in the [FIG_G3_LocalDiv_NS5_L_C20](MONTE_CARLO_Appendix_G/FIG_G3_RejRates_NS5_L_C20) folder.
-    2. `02DivergencesMain_Plot.py`, which generates the subfigures of **Figure G3** from the values in the `xlsx` files in the [Figures](OutputDataFrames/FIG_G3_LocalDiv_NS5_L_C20/OutputDataFrames) folder, and saves them as `.pdf` file in the [Figures](MONTE_CARLO_Appendix_G/FIG_G3_LocalDiv_NS5_L_C20/Figures) folder.
+    1. `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py`, which compute the standardized divergences (where the B version switches the order of the distributions compared to A) and save the resulting `.xlsx` files in the [OutputDataFrames](OutputDataFrames/FIG_G3_LocalDiv_NS5_L_C20/OutputDataFrames) folder.
+    2. `02DivergencesMain_Plot.py`, which generates the subfigures of **Figure G3** from the values in the `xlsx` files in the [OutputDataFrames](OutputDataFrames/FIG_G3_LocalDiv_NS5_L_C20/OutputDataFrames)folder, and saves them as `.pdf` file in the [Figures](MONTE_CARLO_Appendix_G/FIG_G3_LocalDiv_NS5_L_C20/Figures) folder.
        
   The files `ScoringRulesLocalDiv.py`, `WeightFunctionsMC.py`, `DivergencesPlots.py` and `DivergencesBasis.py` provide functions for the required scoring rules, plotting and other supporting functions, respectively. The scripts `S1_Divergences_A.sh` and `S1_Divergences_B.sh` are sample bash scripts for running `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G3.txt` summarizes details specific to the current folder. 
 * [FIG_G4_RejRates_NS5_C_C200](MONTE_CARLO_Appendix_G/FIG_G4_RejRates_NS5_C_C200): Rejection rates for power study Normal(0,1) versus Student-t(5) where the region of interest is the center, with *c=200* observations in the region of interest. For reproduction, run
     1. `01_A_PowerMain_NS5_C_C200_Sim.py`, which simulates and saves the data in the folder [mDataAndWeights](MONTE_CARLO_Appendix_G/FIG_G4_RejRates_NS5_C_C200/mDataAndWeights).
-    2. `01_B_PowerMain_NS5_C_C200_Calc.py`, which computes the DM test statistics and saves them as `.npy` file in the [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G4_RejRates_NS5_L_C200/mDMCalc) folder.
+    2. `01_B_PowerMain_NS5_C_C200_Calc.py`, which computes the DM test statistics and saves them as `.npy` file in the [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G4_RejRates_NS5_C_C200/mDMCalc) folder.
     3. `02PowerMain_NS5_C_C200_Plot.py`, which calculates the rejection rates from the DM test statistics in [mDMCalc](MONTE_CARLO_Appendix_G/FIG_G4_RejRates_NS5_C_C200/mDMCalc), generates the subfigures of **Figure G4**, and saves them as `.pdf` files in the [Figures](MONTE_CARLO_Appendix_G/FIG_G4_RejRates_NS5_C_C200/Figures) folder.
        
-  The files `ScoringRulesMC.py`, `WeightFunctionsMC.py`, `PowerPlots.py` and `PowerBasis.py` provide functions for the required scoring rules, weight functions, plotting and other supporting functions, respectively. The script `S2_PowerMain_NS5_L_C20.sh` is a sample bash script for running `01PowerMain_NS5_L_C20_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G2.txt` summarizes details specific to the current folder.  
+  The files `ScoringRulesMC.py`, `WeightFunctionsMC.py`, `PowerPlots.py` and `PowerBasis.py` provide functions for the required scoring rules, weight functions, plotting and other supporting functions, respectively. The script `S2_PowerMain_NS5_L_C20.sh` is a sample bash script for running `01PowerMain_NS5_L_C20_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G4.txt` summarizes details specific to the current folder.  
 * [FIG_G5_LocalDiv_NS5_C_C200](MONTE_CARLO_Appendix_G/FIG_G5_LocalDiv_NS5_C_C200): Standardized local divergences for Normal(0,1) versus Student-t(5) where the region of interest is the center. For reproduction, run
     1. `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py`, which compute the standardized divergences (where the B version switches the order of the distributions compared to A) and save the resulting `.xlsx` files in the [OutputDataFrames](OutputDataFrames/FIG_G5_LocalDiv_NS5_C_C200/OutputDataFrames)  folder.
     2. `02DivergencesMain_Plot.py`, which generates the subfigures of **Figure G5** from the values in the `xlsx` files in the [OutputDataFrames](OutputDataFrames/FIG_G5_LocalDiv_NS5_C_C200/OutputDataFrames) folder, and saves them as `.pdf` file in the [Figures](MONTE_CARLO_Appendix_G/FIG_G5_LocalDiv_NS5_C_C200/Figures) folder.
@@ -179,7 +179,7 @@ The Monte Carlo Study detailed in Appendix G includes a size experiment and thre
 * **Figure G1**, run `FIG_G1_Size/02SizeMain_Plot.py`.
 * **Figure G2**, run `FIG_G2_RejRates_NS5_L_C20/02PowerMain_NS5_L_C20_Plot.py`.
 * **Figure G3**, run `FIG_G3_LocalDiv_NS5_L_C20/02DivergencesMain_Plot.py`.
-* **Figure G4**, run `FIG_G4_RejRates_NS5_C_C200:/02PowerMain_NS5_C_C200_Plot.py`.
+* **Figure G4**, run `FIG_G4_RejRates_NS5_C_C200/02PowerMain_NS5_C_C200_Plot.py`.
 * **Figure G5**, run `FIG_G5_LocalDiv_NS5_C_C200/02DivergencesMain_Plot.py`.
 * **Figure G6**, run `FIG_G6_RejRates_LP_L_C20/02PowerMain_LP_L_C20_Plot.py`.
 * **Figure G7**, run `FIG_G7_LocalDiv_LP_L_C20/02DivergencesMain_Plot.py`.
