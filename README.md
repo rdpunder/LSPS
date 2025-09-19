@@ -194,7 +194,7 @@ The Monte Carlo Study detailed in Appendix G includes a size experiment and thre
 ## MITCHELL AND WEALE (EXAMPLE 6)
 Folder: [06_MITCHELL_AND_WEALE_Example_6](06_MITCHELL_AND_WEALE_Example_6)
 
-In **Example 6** of Section 3.4, we provide a specific example for which the expected score difference based on the weighted scoring rule by Mitchell and Weale (2023) is negative for *α>α_0*. The aim of the current folder is to reproduce the (rounded) number *α_0 = 0.052* and to graphically verify the inequality *α>α_0*. Run `Example6.py`. The script generates a figure of the expected score differences, saved in the [Figures](06_MITCHELL_AND_WEALE_Example_6/Figures) folder, and prints the alpha root of the expected score differences.
+In **Example 6** of Section 3.4, we provide a specific example for which the expected score difference based on the weighted scoring rule by Mitchell and Weale (2023) is negative for *α>α_0*. The aim of the current folder is to reproduce the (rounded) number *α_0 = 0.052* and to graphically verify the inequality *α>α_0*. Run `Example6.py`. The script generates a figure of the expected score differences, saved in the [Figures](06_MITCHELL_AND_WEALE_Example_6/Figures) folder, and prints the alpha root of the expected score differences. The file ReadMe_MITCHELL_AND_WEALE.txt summarizes details specific to the current folder.
 
 
 ## Other files
