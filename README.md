@@ -5,15 +5,17 @@ This repository provides the data and code to reproduce all the empirical and Mo
 The repository contains six folders. Each of the four empirical applications: Risk Management, Multivariate Risk Management, Inflation, and Climate have their own folders. The other two folders contain the Monte Carlo study and the numerical calculation of Example 6.
 
 For every empirical application, the MCS p-values reported in **Appendix I**, underlying **Table 2**, are obtained by following three steps:
-* **01DensityForecasts**: Preprocess the data and estimate parameters using application specific forecast methods to construct density forecasts.
-* **02Scores**: Compute the scores from each forecast method of step 1 under the scoring rules for which MCS p-values have to be calculated.
+* **01DensityForecasts**: Preprocess the data and estimate parameters using application-specific forecast methods to construct density forecasts.
+* **02Scores**: Compute the scores for each forecast method of step 1 under the scoring rules for which MCS p-values are to be calculated.
 * **03MCS**: Apply the MCS procedure, relying on the R package MCS by Bernardi and Catania (2018), to the scores from step 2 and calculate the percentages and ratios reported in Table 2. 
  
 Specific details per application are given below. The computation time of individual files can be found in  `ComputationTimePerFile.xlsx`. 
 
 **Dependencies**: Code is written in Python unless we build on existing R code.
-* Install Python dependencies with `pip install -r requirements.txt` (also freezing the dependencies on the computing cluster) or `pip install -r requirementsLocal.txt` (only freezing local dependencies).
+* Install Python dependencies with `pip install -r requirementsLocal.txt` (only freezing local dependencies).
 * Install R dependencies by running `InstallPackages.R`.
+
+*Note*: Many scripts have been run on a computing cluster, for which example bash scripts are provided. These scripts depend on the virtual environment `LSPS`, obtained via `pip install -r requirements.txt` (also freezing the dependencies on the computing cluster).
 
 ## RISK MANAGEMENT
 Folder: [01_RISK_MANAGEMENT_Table_2_Appendix_I](01_RISK_MANAGEMENT_Table_2_Appendix_I)
