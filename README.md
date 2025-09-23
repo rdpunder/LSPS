@@ -2,12 +2,12 @@
 
 This repository provides the data and code to reproduce all the empirical and Monte Carlo simulation results contained in the paper **Localizing Strictly Proper Scoring Rules**.
 
-The repository contains six folders. Each of the four empirical applications: Risk Management, Multivariate Risk Management, Inflation, and Climate have their own folders. The other two folders contain the Monte Carlo study and the numerical calculation of Example 6.
+The repository contains six folders. Each of the four empirical applications: Risk Management, Multivariate Risk Management, Inflation, and Climate has its own folder. The other two folders contain the Monte Carlo study and the numerical calculations for Example 6.
 
 For every empirical application, the corresponding MCS p-values reported in **Appendix I**, underlying **Table 2**, are obtained by following three steps:
 * **01DensityForecasts**: Preprocess the data and estimate parameters using application-specific forecast methods to construct density forecasts.
 * **02Scores**: Compute the scores for each forecast method of step 1 under the scoring rules for which MCS p-values are to be calculated.
-* **03MCS**: Apply the MCS procedure, relying on the R package MCS by Bernardi and Catania (2018), to the scores from step 2 and calculate the percentages and ratios reported in Table 2. 
+* **03MCS**: Apply the MCS procedure, relying on the R package MCS by [Bernardi and Catania (2018)](https://doi.org/10.1504/IJCEE.2018.091037), to the scores from step 2 and calculate the percentages and ratios reported in **Table 2**. 
  
 Specific details per application are given below. The computation time of individual files can be found in  `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files (within file size limitations).
 
@@ -86,25 +86,27 @@ Navigate to the folder [03MCS](02_MULTIVARIATE_RISK_MANAGEMENT_Table_2_Appendix_
 Folder: [03_INFLATION_Table_2_Appendix_I](03_INFLATION_Table_2_Appendix_I)
 
 ### Data
-For the data construction, we adopt the procedure of Medeiros et al. (2021), made available through the GitHub repository [gabrielrvsc/ForecastingInflation](https://github.com/gabrielrvsc/ForecastingInflation/tree/main).  Download the January 2025 vintage `2025-01.csv` of the FRED-MD monthly data via the [McCracken Database](https://www.stlouisfed.org/research/economists/mccracken/fred-databases). Run the R script `01_get_fred_data.R` to convert the raw file into `data.rda`, which will be stored in the `01DensityForecasts/Data` folder. Subsequently run the R script `02_data_acc.R` to construct the accumulated inflation based on `CPIAUCSL` for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` folder as both `mYAcc.Rdata` and `mYAcc.npy` files. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAccOut.Rdata` and `mYAccOut.npy`. 
+For the data construction, we adopt the procedure of [Medeiros et al. (2021)](https://doi.org/10.1080/07350015.2019.1637745), made available through the GitHub repository [gabrielrvsc/ForecastingInflation](https://github.com/gabrielrvsc/ForecastingInflation/tree/main).  Download the January 2025 vintage `2025-01.csv` of the FRED-MD monthly data via the [McCracken Database](https://www.stlouisfed.org/research/economists/mccracken/fred-databases). Run the R script `01_get_fred_data.R` to convert the raw file into `data.rda`, which will be stored in the `01DensityForecasts/Data` folder. Subsequently run the R script `02_data_acc.R` to construct the accumulated inflation based on `CPIAUCSL` for each horizon. The resulting datasets are saved in the `01DensityForecasts/Data` folder as both `mYAcc.Rdata` and `mYAcc.npy` files. In addition, the last 180 months of observations are saved separately in the same formats, as the files `YAccOut.Rdata` and `mYAccOut.npy`. 
 
 ### Code
 The code is organized in the following three folders:
-1. [01DensityForecasts](03_INFLATION_Table_2_Appendix_I/01DensityForecasts): The construction of the mean of the density forecasts also strongly relies on Medeiros et al. (2021), hence each individual forecast method now has its own R script:
+1. [01DensityForecasts](03_INFLATION_Table_2_Appendix_I/01DensityForecasts): The construction of the mean of the density forecasts also strongly relies on [Medeiros et al. (2021)](https://doi.org/10.1080/07350015.2019.1637745), hence each individual forecast method now has its own R script:
     * AR model: `03A_call_model_ar.R`
     * Bagging: `03B_call_model_bagging.R`
     * Complete Subset Regression: `03C_call_model_csr.R`
     * LASSO: `03D_call_model_lasso.R`
     * Random Forest: `03E_call_model_rf.R`
     * Random Walk: `03F_call_model_rw.R`
-The individual scripts rely on the supporting functions in the files `Functions/functions.R` and `Functions/rolling_window_tpnorm.R`, which calculate the (parameters of) the density forecasts based on the associated observations in the [Data](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/Data) folder and save them as both `.rda` and `.npy` files in the [mParamsDF](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/mParamsDF) folder.
+      
+    The individual scripts rely on the supporting functions in the files `Functions/functions.R` and `Functions/rolling_window_tpnorm.R`, which calculate the (parameters of) the density forecasts based on the associated observations in the [Data](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/Data) folder and save them as both `.rda` and `.npy` files in the [mParamsDF](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/mParamsDF) folder.
 After completion, the folders [Data](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/Data) and [mParamsDF](03_INFLATION_Table_2_Appendix_I/01DensityForecasts/mParamsDF) should be manually copied to `02Scores`.
 
-2. [02Scores](03_INFLATION_Table_2_Appendix_I/02Scores): We have divided the computation tasks per horizon (*h=6* and *h=24*) and weight function (tails (*T*) and center (*C*)), corresponding to the main scripts
+2. [02Scores](03_INFLATION_Table_2_Appendix_I/02Scores): We have divided the computation tasks per horizon (*h=6* and *h=24*) and weight function (tails (*T*) and center (*C*)), corresponding to the main scripts:
     * `InflationScoreCalcMain_T_h6.py` (`S1_InflationScores_T_h6.sh`)
     * `InflationScoreCalcMain_T_h24.py` (`S1_InflationScores_T_h24.sh`)
     * `InflationScoreCalcMain_C_h6.py` (`S1_InflationScores_C_h6.sh`)
     * `InflationScoreCalcMain_C_h24.py` (`S1_InflationScores_C_h24.sh`)
+ 
    with respective example bash scripts in between brackets. The main scripts depend on the functions in `ScoreBasisInflation.py`, `ScoringRules.py` and `Weightfunctions.py`, including fundamental supporting functions, scoring rules and weight functions, respectively. Execution of a main script produces the scores of the density forecasts built on the parameters in [mParamsDF](03_INFLATION_Table_2_Appendix_I/02Scores/mParamsDF) and the associated observations in [Data](03_INFLATION_Table_2_Appendix_I/02Scores/Data) and saves them as `.npy` files into the folder [mScores](03_INFLATION_Table_2_Appendix_I/02Scores/mScores), which should be manually copied to [03MCS](03_INFLATION_Table_2_Appendix_I/03MCS) upon completion.
  
 3. [03MCS](03_INFLATION_Table_2_Appendix_I/03MCS): Running the R scripts `MCSTables_InflationCenter.R` and `MCSTables_InflationTails.R` produces the MCS p-values for the tails and center indicator weight function based on the scores in [mScores](03_INFLATION_Table_2_Appendix_I/03MCS/mScores) and saves them as `.xlsx` files in the folder [MCSTables](03_INFLATION_Table_2_Appendix_I/03MCS/MCSTables). 
@@ -196,7 +198,7 @@ The Monte Carlo Study detailed in Appendix G includes a size experiment and thre
 ## MITCHELL AND WEALE (EXAMPLE 6)
 Folder: [06_MITCHELL_AND_WEALE_Example_6](06_MITCHELL_AND_WEALE_Example_6)
 
-In **Example 6** of Section 3.4, we provide a specific example for which the expected score difference based on the weighted scoring rule by Mitchell and Weale (2023) is negative for *α>α_0*. The aim of the current folder is to reproduce the (rounded) number *α_0 = 0.052* and to graphically verify the inequality *α>α_0*. Run `Example6.py`. The script generates a figure of the expected score differences, saved in the [Figures](06_MITCHELL_AND_WEALE_Example_6/Figures) folder, and prints the alpha root of the expected score differences. The file ReadMe_MITCHELL_AND_WEALE.txt summarizes details specific to the current folder.
+In **Example 6** of Section 3.4, we provide a specific example for which the expected score difference based on the weighted scoring rule by [Mitchell and Weale (2023)](https://doi.org/10.1002/jae.2972) is negative for *α>α_0*. The aim of the current folder is to reproduce the (rounded) number *α_0 = 0.052* and to graphically verify the inequality *α>α_0*. Run `Example6.py`. The script generates a figure of the expected score differences, saved in the [Figures](06_MITCHELL_AND_WEALE_Example_6/Figures) folder, and prints the alpha root of the expected score differences. The file ReadMe_MITCHELL_AND_WEALE.txt summarizes details specific to the current folder.
 
 
 ## Other files
