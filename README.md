@@ -18,7 +18,7 @@ Specific details per application are given below. The computation time of indivi
 *Remark 1*. As can be seen from `ComputationTimePerFile.xlsx`, we ran many files on a computing cluster. 
 We have provided the associated bash scripts (`.sh`), which serve as an example for other computing clusters. 
 For exact reproduction of our results, we ran all files in a virtual environment called `LSPS` (activated in every bash script).
-To replicate the virtual environment, create a new virtual environment and run `pip install -r requirements.txt` to install all dependencies.
+To replicate the virtual environment, create a new virtual environment and run `pip install -r requirements.txt` (also freezing the depencies specific to the computing cluster).
 
 ## RISK MANAGEMENT
 Folder: [01_RISK_MANAGEMENT_Table_2_Appendix_I](01_RISK_MANAGEMENT_Table_2_Appendix_I)
