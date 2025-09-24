@@ -9,7 +9,7 @@ For every empirical application, the corresponding MCS p-values reported in **Ap
 * **02Scores**: Compute the scores for each forecast method of step 1 under the scoring rules for which MCS p-values are to be calculated.
 * **03MCS**: Apply the MCS procedure, relying on the R package MCS by [Bernardi and Catania (2018)](https://doi.org/10.1504/IJCEE.2018.091037), to the scores from step 2 and calculate the percentages and ratios reported in **Table 2**. 
  
-Specific details per application are given below. The computation time of individual files can be found in  `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files (within file size limitations).
+Specific details per application are given below. The computation time of individual files can be found in  `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files.
 
 **Dependencies**: Code is written in Python unless we build on existing R code.
 * Install Python dependencies with `pip install -r requirementsLocal.txt` (only freezing local dependencies).
