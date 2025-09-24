@@ -12,7 +12,7 @@ For every empirical application, the corresponding MCS p-values reported in **Ap
 Specific details per application are given below. The computation time of individual files can be found in `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files.
 
 **Dependencies**: Code is written in Python unless we build on existing R code.
-* Install Python dependencies with `pip install -r requirementsLocal.txt` (only freezing local dependencies). The package `mpi4py` requires and MPI implementation for which we use `Open MPI 4.1.5`, which can be installed through `brew install openmpi` on macOS. The main scripts can also be executed sequentially without `mpi4py` by commenting out the corresponding import statements in the main files. In that case, run `python3 mainfile.py` instead of `mpirun -n 16 python3 mainfile.py` when using a computer with 16 cores. For parallel computation on a computing cluster we refer to Remark 1.
+* Install Python dependencies with `pip install -r requirementsLocal.txt` (only freezing local dependencies). The package `mpi4py` requires and MPI implementation for which we use `Open MPI 4.1.5`, which can be installed through `brew install openmpi` on macOS. The main scripts can also be executed sequentially without `mpi4py` by commenting out the corresponding import statements in the main files. In that case, run `python3 mainfile.py` instead of `mpirun -n 16 python3 mainfile.py` (for each of the mainfiles listed below) when using a computer with 16 cores. For parallel computation on a computing cluster we refer to *Remark 1*.
 * Install R dependencies by running `InstallPackages.R`.
 
 *Remark 1*. As can be seen from `ComputationTimePerFile.xlsx`, we ran many files on a computing cluster. 
