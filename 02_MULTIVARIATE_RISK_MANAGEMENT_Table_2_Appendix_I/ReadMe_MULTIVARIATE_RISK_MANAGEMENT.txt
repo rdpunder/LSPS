@@ -1,0 +1,7 @@
+Steps to reproduce results Multivariate Risk Management Application
+------
+1. Run 01DensityForecasts/RiskManMainMV.py. A sample bash script, S1_RiskManBivariate.sh, is provided for your convenience. The script calculates the (parameters of) the density forecasts and saves them as a .npy file in the mParamsDF folder. After completion, copy the entire folder mParamsDF to 02Scores for step 2.
+
+2. Run 02Scores/RiskManMainMVIndProd.py and 02Scores/RiskManMainMVLogProd3.py. The script calculates the scores based on the density forecast (parameters) in the folder mParamsDF. The scores are saved as a .npy file in the folder mScores. After completion, copy the entire folder mScores to 03MCS for step 3.
+
+3. Run 03MCS/RiskManMCSBivariateIndProd.R and 03MCS/RiskManMCSBivariateLogProd3.R in R. MCS Tables are calculated based on the R package MCS by Bernardi and Catania (2018). Running the R scripts produces MCS tables, saved as .xlsx files in the folder MCSTables.  After completion, run 03MCS/MCSAnalysisRiskManIndProd.py and 03MCS/MCSAnalysisRiskManLogProd3.py. The MCS tables in the folder MCSTables will be translated into the tables with MCS p-values, Table I.4 and Table I.5, and the risk management panel in Table 2 and Table I.1. 
