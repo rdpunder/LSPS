@@ -9,13 +9,16 @@ For every empirical application, the corresponding MCS p-values reported in **Ap
 * **02Scores**: Compute the scores for each forecast method of step 1 under the scoring rules for which MCS p-values are to be calculated.
 * **03MCS**: Apply the MCS procedure, relying on the R package MCS by [Bernardi and Catania (2018)](https://doi.org/10.1504/IJCEE.2018.091037), to the scores from step 2 and calculate the percentages and ratios reported in **Table 2**. 
  
-Specific details per application are given below. The computation time of individual files can be found in  `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files.
+Specific details per application are given below. The computation time of individual files can be found in `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files.
 
 **Dependencies**: Code is written in Python unless we build on existing R code.
-* Install Python dependencies with `pip install -r requirementsLocal.txt` (only freezing local dependencies).
+* Install Python dependencies with `pip install -r requirementsLocal.txt` (only freezing local dependencies). The package `mpi4py` requires and MPI implementation for which we use `Open MPI 4.1.5`, which can be installed through `brew install openmpi` on macOS. The main scripts can also be executed sequentially without `mpi4py` by commenting out the corresponding import statements in the main files. In that case, run `python3 mainfile.py` instead of `mpirun -n 16 python3 mainfile.py` when using a computer with 16 cores. For parallel computation on a computing cluster we refer to Remark 1.
 * Install R dependencies by running `InstallPackages.R`.
 
-Note: Many scripts have been run on a computing cluster, for which example bash scripts are provided. These scripts depend on the virtual environment `LSPS`, obtained via `pip install -r requirements.txt` (also freezing the dependencies on the computing cluster).
+*Remark 1*. As can be seen from `ComputationTimePerFile.xlsx`, we ran many files on a computing cluster. 
+We have provided the associated bash scripts (`.sh`), which serve as an example for other computing clusters. 
+For exact reproduction of our results, we ran all files in a virtual environment called `LSPS` (activated in every bash script).
+To replicate the virtual environment, create a new virtual environment and run `pip install -r requirements.txt` to install all dependencies.
 
 ## RISK MANAGEMENT
 Folder: [01_RISK_MANAGEMENT_Table_2_Appendix_I](01_RISK_MANAGEMENT_Table_2_Appendix_I)
