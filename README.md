@@ -123,7 +123,7 @@ Navigate to the folder [03MCS](03_INFLATION_Table_2_Appendix_I/03MCS). Run the s
 Folder: [04_CLIMATE_Table_2_Appendix_I](04_CLIMATE_Table_2_Appendix_I)
 
 ### Data
-The temperature data are downloaded as a `.txt` file directly from [KNMI - Daily Weather Data De Bilt](https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_260.zip), starting on January 1, 1901, and updated regularly. From this file we extract the columns `YYYYMMDD` (=Date), `TG` (=TempAvg, average temperature), `TN` (=TempMin, minimum temperature), `TX` (=TempMax, maximum temperature), and save them as `.xlsx` file, resulting in `01DensityForecasts/ClimateKNMI_Temp.xlsx`. In `01DensityForecasts/ClimateMain.py` we divide the raw values by ten to convert them to degrees Celsius, and select the required sample period (sStart =`2003-02-01`, sEnd = `2023-01-31`).
+The temperature data are downloaded as a `.txt` file directly from [KNMI - Daily Weather Data De Bilt](https://cdn.knmi.nl/knmi/map/page/klimatologie/gegevens/daggegevens/etmgeg_260.zip), starting on January 1, 1901. From this file we extract the columns `YYYYMMDD` (=Date), `TG` (=TempAvg, average temperature), `TN` (=TempMin, minimum temperature), `TX` (=TempMax, maximum temperature), and save them as `.xlsx` file, resulting in `01DensityForecasts/ClimateKNMI_Temp.xlsx`. In `01DensityForecasts/ClimateMain.py` we divide the raw values by ten to convert them to degrees Celsius, and select the required sample period (sStart =`2003-02-01`, sEnd = `2023-01-31`).
 
 ### Code
 The code is organized in the following three folders:
@@ -134,7 +134,7 @@ The code is organized in the following three folders:
 3. [03MCS](04_CLIMATE_Table_2_Appendix_I/03MCS): Running the R scripts `MCSTables_ClimateTails.R` and `MCSTables_ClimateCenter.R` produces the MCS *p*-values based on the scores in [mScores](04_CLIMATE_Table_2_Appendix_I/03MCS/mScores) and saves them as `.xlsx` files in the folder [MCSTables](04_CLIMATE_Table_2_Appendix_I/03MCS/MCSTables). 
 
 ### Output
-* **Table 2** and **Table I.1**, Sec. 4.3 panel,  **Table I.8**, and **Table I.9**, run `03MCS/MCSAnalysisClimate_Tails.py` and `03MCS/MCSAnalysisClimate_Center.py`.
+* **Table 2** and **Table I.1**, Sec. 4.3 panel,  **Table I.8**, and **Table I.9**, produced by `03MCS/MCSAnalysisClimate_Tails.py` and `03MCS/MCSAnalysisClimate_Center.py`.
   
 Navigate to the folder [03MCS](04_CLIMATE_Table_2_Appendix_I/03MCS). Run the scripts `MCSAnalysisClimate_Tails.py` and `MCSAnalysisClimate_Center.py`. The MCS results in the folder [MCSTables](04_CLIMATE_Table_2_Appendix_I/03MCS/MCSTables) will be translated into the table with MCS *p*-values in **Table I.8** (for the right tail indicator weight function) and **Table I.9** (for the center indicator weight function) and the summary values in the Sec. 4.3 panel in **Table 2** for MCS confidence level 0.90 and **Table I.1** for MCS confidence level 0.75.
 
@@ -142,7 +142,7 @@ Navigate to the folder [03MCS](04_CLIMATE_Table_2_Appendix_I/03MCS). Run the scr
 Folder: [05_MONTE_CARLO_Appendix_G](05_MONTE_CARLO_Appendix_G)
 
 ### Data
-The data are simulated under different DGPs:
+The data are simulated under different data generating processes (DGPs):
 * Normal(-0.2,1) and Normal(0.2,1) in the size experiment.
 * Normal(0,1) and Student-t(5) in the first two power experiments (**Figure G.2** and **G.4**).
 * Laplace(-1,1) and Laplace(1,1.1) in the final power experiment (**Figure G.6**).
@@ -190,13 +190,13 @@ The Monte Carlo Study detailed in Appendix G includes a size experiment and thre
   The files `ScoringRulesLocalDiv.py`, `WeightFunctionsMC.py`, `DivergencesPlots.py` and `DivergencesBasis.py` provide functions for the required scoring rules, plotting and other supporting functions, respectively. The scripts `S1_Divergences_A.sh` and `S1_Divergences_B.sh` are sample bash scripts for running `01_A_DivergencesMain_Calc.py` and `01_B_DivergencesMain_Calc.py` in parallel on a computing cluster. The file `ReadMe_FIG_G7.txt` summarizes details specific to the current folder. 
 
 ### Output
-* **Figure G.1**, run `FIG_G1_Size/02SizeMain_Plot.py`.
-* **Figure G.2**, run `FIG_G2_RejRates_NS5_L_C20/02PowerMain_NS5_L_C20_Plot.py`.
-* **Figure G.3**, run `FIG_G3_LocalDiv_NS5_L_C20/02DivergencesMain_Plot.py`.
-* **Figure G.4**, run `FIG_G4_RejRates_NS5_C_C200/02PowerMain_NS5_C_C200_Plot.py`.
-* **Figure G.5**, run `FIG_G5_LocalDiv_NS5_C_C200/02DivergencesMain_Plot.py`.
-* **Figure G.6**, run `FIG_G6_RejRates_LP_L_C20/02PowerMain_LP_L_C20_Plot.py`.
-* **Figure G.7**, run `FIG_G7_LocalDiv_LP_L_C20/02DivergencesMain_Plot.py`.
+* **Figure G.1**, produced by `FIG_G1_Size/02SizeMain_Plot.py`.
+* **Figure G.2**, produced by `FIG_G2_RejRates_NS5_L_C20/02PowerMain_NS5_L_C20_Plot.py`.
+* **Figure G.3**, produced by `FIG_G3_LocalDiv_NS5_L_C20/02DivergencesMain_Plot.py`.
+* **Figure G.4**, produced by `FIG_G4_RejRates_NS5_C_C200/02PowerMain_NS5_C_C200_Plot.py`.
+* **Figure G.5**, produced by `FIG_G5_LocalDiv_NS5_C_C200/02DivergencesMain_Plot.py`.
+* **Figure G.6**, produced by `FIG_G6_RejRates_LP_L_C20/02PowerMain_LP_L_C20_Plot.py`.
+* **Figure G.7**, produced by `FIG_G7_LocalDiv_LP_L_C20/02DivergencesMain_Plot.py`.
 
 ## MITCHELL AND WEALE (EXAMPLE 6)
 Folder: [06_MITCHELL_AND_WEALE_Example_6](06_MITCHELL_AND_WEALE_Example_6)
