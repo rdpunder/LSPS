@@ -5,9 +5,9 @@ This repository provides the data and code to reproduce all the empirical and Mo
 The repository contains six folders. Each of the four empirical applications: Risk Management, Multivariate Risk Management, Inflation, and Climate has its own folder. The other two folders contain the Monte Carlo study and the numerical calculations for Example 6.
 
 For each empirical application, the corresponding MCS *p*-values reported in **Appendix I**, underlying **Table 2**, are obtained by following three steps:
-* **Step 1 -- 01DensityForecasts**: Preprocess the data and estimate the parameters using application-specific forecast methods to construct density forecasts.
-* **Step 2 -- 02Scores**: Compute the scores for each forecast method of Step 1 under the scoring rules for which MCS *p*-values are to be calculated.
-* **Step 3 -- 03MCS**: Apply the MCS procedure, relying on the R package MCS by [Bernardi and Catania (2018)](https://doi.org/10.1504/IJCEE.2018.091037), to the scores from Step 2 and calculate the percentages and ratios reported in **Table 2**. 
+* **Step 1 &mdash; 01DensityForecasts**: Preprocess the data and estimate the parameters using application-specific forecast methods to construct density forecasts.
+* **Step 2 &mdash; 02Scores**: Compute the scores for each forecast method of Step 1 under the scoring rules for which MCS *p*-values are to be calculated.
+* **Step 3 &mdash; 03MCS**: Apply the MCS procedure, relying on the R package MCS by [Bernardi and Catania (2018)](https://doi.org/10.1504/IJCEE.2018.091037), to the scores from Step 2 and calculate the percentages and ratios reported in **Table 2**. 
  
 Specific details per application are given below. In each folder, we have also provided a `.txt` ReadMe file summarizing the steps for reproduction (e.g., `ReadMe_RISK_MANAGEMENT.txt`). The computation time of individual files can be found in `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files.
 
