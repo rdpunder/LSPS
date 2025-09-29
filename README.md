@@ -4,21 +4,21 @@ This repository provides the data and code to reproduce all the empirical and Mo
 
 The repository contains six folders. Each of the four empirical applications: Risk Management, Multivariate Risk Management, Inflation, and Climate has its own folder. The other two folders contain the Monte Carlo study and the numerical calculations for Example 6.
 
-For every empirical application, the corresponding MCS *p*-values reported in **Appendix I**, underlying **Table 2**, are obtained by following three steps:
-* **01DensityForecasts**: Preprocess the data and estimate parameters using application-specific forecast methods to construct density forecasts.
-* **02Scores**: Compute the scores for each forecast method of step 1 under the scoring rules for which MCS *p*-values are to be calculated.
+For each empirical application, the corresponding MCS *p*-values reported in **Appendix I**, underlying **Table 2**, are obtained by following three steps:
+* **01DensityForecasts**: Preprocess the data and estimate the parameters using application-specific forecast methods to construct density forecasts.
+* **02Scores**: Compute the scores for each forecast method of Step 1 under the scoring rules for which MCS *p*-values are to be calculated.
 * **03MCS**: Apply the MCS procedure, relying on the R package MCS by [Bernardi and Catania (2018)](https://doi.org/10.1504/IJCEE.2018.091037), to the scores from step 2 and calculate the percentages and ratios reported in **Table 2**. 
  
-Specific details per application are given below. In each folder, we have also provided a `.txt` ReadMe file summarizing the steps for reproduction (e.g. `ReadMe_RISK_MANAGEMENT.txt`). The computation time of individual files can be found in `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files.
+Specific details per application are given below. In each folder, we have also provided a `.txt` ReadMe file summarizing the steps for reproduction (e.g., `ReadMe_RISK_MANAGEMENT.txt`). The computation time of individual files can be found in `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files.
 
 **Dependencies**: Code is written in Python unless we build on existing R code.
-* Install Python dependencies with `pip install -r requirementsLocal.txt` (only freezing local dependencies). The package `mpi4py` requires an MPI implementation for which we use `Open MPI 4.1.5`, which can be installed via `brew install openmpi` on macOS. The main scripts can also be executed sequentially without `mpi4py` by commenting out the corresponding import statements in the main files. In that case, run `python3 mainfile.py` instead of `mpirun -n 16 python3 mainfile.py` (for each of the mainfiles listed below) when using a computer with 16 cores. For parallel computation on a computing cluster we refer to *Remark 1*.
+* Install Python dependencies with `pip install -r requirementsLocal.txt` (freezing only local dependencies). The package `mpi4py` requires an MPI implementation for which we use `Open MPI 4.1.5`, which can be installed via `brew install openmpi` on macOS. The main scripts can also be executed sequentially without `mpi4py` by commenting out the corresponding import statements in the main files. In that case, run `python3 mainfile.py` instead of `mpirun -n 16 python3 mainfile.py` (for each of the main files listed below) when using a computer with 16 cores. For parallel computation on a computing cluster we refer to *Remark 1*.
 * Install R dependencies by running `InstallPackages.R`.
 
 *Remark 1*. As can be seen from `ComputationTimePerFile.xlsx`, we ran many files on a computing cluster. 
 We have provided the associated bash scripts (`.sh`), which serve as an example for other computing clusters. 
-For exact reproduction of our results, we ran all files in a virtual environment called `LSPS` (activated in every bash script).
-To replicate the `LSPS` environment, create a new virtual environment and run `pip install -r requirements.txt` (also freezing the dependencies specific to the computing cluster).
+For exact reproduction of our results, note that we have run all files in a virtual environment called `LSPS` (activated in each bash script).
+To replicate the `LSPS` environment, create a new virtual environment and run `pip install -r requirements.txt` (freezing also the dependencies specific to the computing cluster).
 
 ## RISK MANAGEMENT
 Folder: [01_RISK_MANAGEMENT_Table_2_Appendix_I](01_RISK_MANAGEMENT_Table_2_Appendix_I)
@@ -51,8 +51,8 @@ The code is organized in the following three folders:
 Navigate to the folder [03MCS](01_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS). Run the script `MCSAnalysisRiskManagement.py`. Running the script translates the MCS *p*-values in the folder [MCSTables](01_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/MCSTables) into the table with MCS *p*-values in **Table I.2** and the summary values for the first weight function in the Sec. 4.1 panel, in **Table 2** for MCS confidence level 0.90 and **Table I.1** for MCS confidence level 0.75.
 
 The remaining files in the three folders contribute to the robustness analysis with respect to the choice of the test statistic and the length of the estimation window (*m*). For reproduction, follow:
-1. Redo step 1 for the alternative window lengths *m=750* and *m=1250* by running `01DensityForecasts/RiskManMainTest750.py` and `01DensityForecasts/RiskManMainTest1250.py` (e.g. by using the bash scripts `S1_RiskManMainTest750.sh` and `S1_RiskManMainTest1250.sh`, respectively).
-2. Redo step 2 for the alternative window lengths *m=750* and *m=1250* by running `02Scores/RiskManScoreCalcMainTest750.py` and `02Scores/RiskManScoreCalcMainTest1250.py` (e.g. by using the bash scripts `S1_RiskManScoresTest750.sh` and `S1_RiskManScoresTest1250.sh`, respectively).
+1. Redo step 1 for the alternative window lengths *m=750* and *m=1250* by running `01DensityForecasts/RiskManMainTest750.py` and `01DensityForecasts/RiskManMainTest1250.py` (e.g., by using the bash scripts `S1_RiskManMainTest750.sh` and `S1_RiskManMainTest1250.sh`, respectively).
+2. Redo step 2 for the alternative window lengths *m=750* and *m=1250* by running `02Scores/RiskManScoreCalcMainTest750.py` and `02Scores/RiskManScoreCalcMainTest1250.py` (e.g., by using the bash scripts `S1_RiskManScoresTest750.sh` and `S1_RiskManScoresTest1250.sh`, respectively).
 3. Similar to step 3 above, run `03MCS/MCSTables_RiskManRobust.R`, `03MCS/MCSTables_RiskManRobust750.R` and `03MCS/MCSTables_RiskManRobust1250.R`.
   
 The output of the robustness analysis is generated by navigating to the folder [03MCS](01_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS) and then running the scripts `MCSAnalysisRiskManagementRobust_m750_Tmax5.py`, `MCSAnalysisRiskManagementRobust_m750_TR5.py`, `MCSAnalysisRiskManagementRobust_m1000_Tmax20.py`, `MCSAnalysisRiskManagementRobust_m1000_TR20.py`, `MCSAnalysisRiskManagementRobust_m1250_Tmax5.py`, `MCSAnalysisRiskManagementRobust_m1250_TR5.py`. By running each script, the MCS tables in the folder [MCSTables](01_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/MCSTables) will be translated into the corresponding rows of **Table I.3**.
@@ -150,7 +150,7 @@ The data are simulated under different DGPs:
 By running the `Calc` scripts under Code below, data are temporarily saved in the empty folder `mDataAndWeights`.
 
 ### Code
-The Monte Carlo Study detailed in Appendix G includes a size experiment and three power experiments: Normal vs. Student-t(5) left-tail, Normal vs. Student-t(5) center and Laplace(-1,1) vs. Laplace(1,1.1). The power studies are supplemented with the analysis of the associated standardized local divergences, for which we include separate folders per experiment. In total, this yields seven subdirectories for the reproduction of the figures in *Appendix G*, with titles indicating which figure is reproduced (e.g. *FIG_G1_Size* for the reproduction of **Figure G.1**). 
+The Monte Carlo Study detailed in Appendix G includes a size experiment and three power experiments: Normal vs. Student-t(5) left-tail, Normal vs. Student-t(5) center and Laplace(-1,1) vs. Laplace(1,1.1). The power studies are supplemented with the analysis of the associated standardized local divergences, for which we include separate folders per experiment. In total, this yields seven subdirectories for the reproduction of the figures in *Appendix G*, with titles indicating which figure is reproduced (e.g., *FIG_G1_Size* for the reproduction of **Figure G.1**). 
 
 * [FIG_G1_Size](05_MONTE_CARLO_Appendix_G/FIG_G1_Size): Size experiment. For reproduction, run
     1. `01SizeMain_Calc.py`, which computes the DM test statistics and saves them as `.npy` file in the [mDMCalc](05_MONTE_CARLO_Appendix_G/FIG_G1_Size/mDMCalc) folder.
