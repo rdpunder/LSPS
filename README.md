@@ -33,8 +33,8 @@ Save the data as `.csv` file `RealisedVolatilityFullPeriodTrade.csv` in the [Dat
 The `SPY` series has been obtained from [Yahoo Finance](https://finance.yahoo.com/quote/SPY/) through the `yfinance` module. 
 The script `EmpiricalDataRiskMan.py` located in the [DataConstruction](01_RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data/DataConstruction) folder, downloads the price series, transforms it into log returns, and merges it with the corresponding deannualized realized measure. 
 The script produces the file `SP500andRealVol1995Xiu.csv`, which can then be copied to the [01DensityForecasts/Data](01_RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data) folder.
-For exact replication of results, we recommend using the provided file `SP500andRealVol1995Xiu.csv` in [01DensityForecasts/Data](01_RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data).
-Re-downloading the series may lead to small numerical differences (~10e-7) due to real time auto-adjustments for dividends and stock splits and/or other differences related to future changes to the `yfinance` module. 
+For exact replication of our results, we recommend using the provided file `SP500andRealVol1995Xiu.csv` in [01DensityForecasts/Data](01_RISK_MANAGEMENT_Table_2_Appendix_I/01DensityForecasts/Data).
+Re-downloading the series may lead to small numerical differences (~10e-7) due to real time auto-adjustments for dividends and stock splits and/or other differences related to (future) changes to the `yfinance` module. 
 
 ### Code
 The code is organized in the following three folders:
@@ -45,8 +45,8 @@ The code is organized in the following three folders:
 3. [03MCS](01_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS): Running the R script `MCSTables_RiskMan.R` produces the MCS *p*-values based on the scores in [mScores](01_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/mScores) and saves them as `.xlsx` files in the folder [MCSTables](01_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/MCSTables). 
 
 ### Output
-* **Table 2** and **Table I.1**, first weight function in the Sec. 4.1 panel, and  **Table I.2**, run `03MCS/MCSAnalysisRiskManagement.py`.
-* **Table I.3**, run `03MCS/MCSAnalysisRiskManagement.py`, run `03MCS/MCSAnalysisRiskManagementRobust_m750_Tmax5.py`, `03MCS/MCSAnalysisRiskManagementRobust_m750_TR5.py`, `03MCS/MCSAnalysisRiskManagementRobust_m1000_Tmax20.py`, `03MCS/MCSAnalysisRiskManagementRobust_m1000_TR20.py`, and `03MCS/MCSAnalysisRiskManagementRobust_m1250_Tmax5.py`, `03MCS/MCSAnalysisRiskManagementRobust_m1250_TR5.py`
+* **Table 2** and **Table I.1**, first weight function in the Sec. 4.1 panel, and  **Table I.2**, produced by `03MCS/MCSAnalysisRiskManagement.py`.
+* **Table I.3**, produced by `03MCS/MCSAnalysisRiskManagement.py`, `03MCS/MCSAnalysisRiskManagementRobust_m750_Tmax5.py`, `03MCS/MCSAnalysisRiskManagementRobust_m750_TR5.py`, `03MCS/MCSAnalysisRiskManagementRobust_m1000_Tmax20.py`, `03MCS/MCSAnalysisRiskManagementRobust_m1000_TR20.py`, `03MCS/MCSAnalysisRiskManagementRobust_m1250_Tmax5.py`, and `03MCS/MCSAnalysisRiskManagementRobust_m1250_TR5.py`
 
 Navigate to the folder [03MCS](01_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS). Run the script `MCSAnalysisRiskManagement.py`. Running the script translates the MCS *p*-values in the folder [MCSTables](01_RISK_MANAGEMENT_Table_2_Appendix_I/03MCS/MCSTables) into the table with MCS *p*-values in **Table I.2** and the summary values for the first weight function in the Sec. 4.1 panel, in **Table 2** for MCS confidence level 0.90 and **Table I.1** for MCS confidence level 0.75.
 
