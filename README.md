@@ -211,7 +211,7 @@ In **Example 6** of Section 3.4, we provide a specific example for which the exp
 - `ComputationTimePerFile.xlsx`: Indicating computation time per file
 - `LICENSE`: MIT License
 - `.gitattributes`: ensures consistent line endings across platforms by letting Git auto-detect text files and normalize them
-- `.gitignore`: excluses temporary and system-specific files including `.DS_Store`
+- `.gitignore`: excludes temporary and system-specific files including `.DS_Store`
 - `README.md`: This *README.md* file
 
 
