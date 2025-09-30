@@ -209,7 +209,9 @@ In **Example 6** of Section 3.4, we provide a specific example for which the exp
 - `requirementsLocal.txt`: required Python libraries and packages (excluding dependencies installed on the computing cluster)
 - `InstallPackages.R`: required R packages
 - `ComputationTimePerFile.xlsx`: Indicating computation time per file
-- `LICENSE`: MIT License.
+- `LICENSE`: MIT License
+- `.gitattributes`: ensures consistent line endings across platforms by letting Git auto-detect text files and normalize them
+- `.gitignore`: excluses temporary and system-specific files including `.DS_Store`
 - `README.md`: This *README.md* file
 
 
