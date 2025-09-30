@@ -11,7 +11,7 @@ For each empirical application, the corresponding MCS *p*-values reported in **A
  
 Specific details per application are given below. In each folder, we have also provided a `.txt` ReadMe file summarizing the steps for reproduction (e.g., `ReadMe_RISK_MANAGEMENT.txt`). The computation time of individual files can be found in `ComputationTimePerFile.xlsx`. Intermediate results are provided as `.xlsx`, `.npy` and `.Rdata` files.
 
-**Dependencies**: Code is written in Python unless we build on existing R code, executed with `Python 3.9.18` and `R 4.3.0`.
+**Dependencies**: Code is written in Python unless we build on existing R code, and executed with `Python 3.9.18` and `R 4.3.0`.
 * Install Python dependencies with `pip install -r requirementsLocal.txt` (freezing only local dependencies). The package `mpi4py` requires an MPI implementation for which we use `Open MPI 4.1.5`, which can be installed via `brew install openmpi` on macOS. The main scripts can also be executed sequentially without `mpi4py` by commenting out the corresponding import statements in the main files. In that case, run `python3 mainfile.py` instead of `mpirun -n 16 python3 mainfile.py` (for each of the main files listed below) when using a computer with 16 cores. For parallel computation on a computing cluster we refer to *Remark 1*.
 * Install R dependencies by running `InstallPackages.R`.
 
