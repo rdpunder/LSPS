@@ -38,4 +38,4 @@ data = data %>%
   filter(date>=start_date)%>%
   select_if(~ !any(is.na(.)))
 
-save(data,file = "data/data.rda")
+save(data,file = "Data/data.rda")
