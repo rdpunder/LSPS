@@ -210,7 +210,7 @@ In **Example 6** of Section 3.4, we provide a specific example for which the exp
 - `InstallPackages.R`: required R packages
 - `ComputationTimePerFile.xlsx`: Indicating computation time per file
 - `LICENSE`: MIT License.
-- `.gitattributes`: The `.gitattributes` file ensures consistent line endings across platforms by letting Git auto-detect text files and normalize them.
+- `.gitattributes`: ensures consistent line endings across platforms by letting Git auto-detect text files and normalize them.
 - `.gitignore`: excluses temporary and system-specific files including `.DS_Store`.
 - `README.md`: This *README.md* file
 
